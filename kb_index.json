@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "project": "tao-kb",
+    "source": "Tao Te Ching (Wang Bi version)",
+    "total_chapters": 81
+  },
+  "stats": {
+    "total_tags": 287,
+    "type_counts": {
+      "概念": 129,
+      "境界": 23,
+      "对立": 36,
+      "主体": 62,
+      "意象": 37
+    }
+  },
+  "entities": {
+    "道": {
+      "type": "概念",
+      "count": 64,
+      "occurrences": [
+        "001.tagged.md",
+        "002_010.tagged.md",
+        "011_020.tagged.md",
+        "021_040.tagged.md",
+        "041_060.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "名": {
+      "type": "概念",
+      "count": 4,
+      "occurrences": [
+        "001.tagged.md"
+      ]
+    },
+    "无名": {
+      "type": "境界",
+      "count": 2,
+      "occurrences": [
+        "001.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "有名": {
+      "type": "境界",
+      "count": 2,
+      "occurrences": [
+        "001.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "无欲": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "001.tagged.md"
+      ]
+    },
+    "妙": {
+      "type": "境界",
+      "count": 2,
+      "occurrences": [
+        "001.tagged.md"
+      ]
+    },
+    "有欲": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "001.tagged.md"
+      ]
+    },
+    "徼": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "001.tagged.md"
+      ]
+    },
+    "玄": {
+      "type": "境界",
+      "count": 3,
+      "occurrences": [
+        "001.tagged.md"
+      ]
+    },
+    "美": {
+      "type": "对立",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "恶": {
+      "type": "对立",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "善": {
+      "type": "对立",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "不善": {
+      "type": "对立",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "有": {
+      "type": "对立",
+      "count": 9,
+      "occurrences": [
+        "002_010.tagged.md",
+        "011_020.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "无": {
+      "type": "对立",
+      "count": 9,
+      "occurrences": [
+        "002_010.tagged.md",
+        "011_020.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "难": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "易": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "长": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "短": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "高": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "下": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "音": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "声": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "前": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "后": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "圣人": {
+      "type": "主体",
+      "count": 30,
+      "occurrences": [
+        "002_010.tagged.md",
+        "011_020.tagged.md",
+        "021_040.tagged.md",
+        "041_060.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "无为": {
+      "type": "概念",
+      "count": 13,
+      "occurrences": [
+        "002_010.tagged.md",
+        "021_040.tagged.md",
+        "041_060.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "不言": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "万物": {
+      "type": "主体",
+      "count": 7,
+      "occurrences": [
+        "002_010.tagged.md",
+        "011_020.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "无知无欲": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "尘": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "天地": {
+      "type": "主体",
+      "count": 8,
+      "occurrences": [
+        "002_010.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "刍狗": {
+      "type": "意象",
+      "count": 2,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "橐龠": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "中": {
+      "type": "概念",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "谷神": {
+      "type": "主体",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "玄牝": {
+      "type": "意象",
+      "count": 2,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "天": {
+      "type": "主体",
+      "count": 6,
+      "occurrences": [
+        "002_010.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "地": {
+      "type": "主体",
+      "count": 5,
+      "occurrences": [
+        "002_010.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "水": {
+      "type": "意象",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "金玉": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "婴儿": {
+      "type": "意象",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md",
+        "011_020.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "玄览": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "002_010.tagged.md"
+      ]
+    },
+    "雌": {
+      "type": "对立",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "雄": {
+      "type": "对立",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "玄德": {
+      "type": "概念",
+      "count": 3,
+      "occurrences": [
+        "002_010.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "毂": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "011_020.tagged.md"
+      ]
+    },
+    "器": {
+      "type": "意象",
+      "count": 6,
+      "occurrences": [
+        "011_020.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "无物": {
+      "type": "概念",
+      "count": 2,
+      "occurrences": [
+        "011_020.tagged.md"
+      ]
+    },
+    "惚恍": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "011_020.tagged.md"
+      ]
+    },
+    "道纪": {
+      "type": "概念",
+      "count": 1,
+      "occurrences": [
+        "011_020.tagged.md"
+      ]
+    },
+    "朴": {
+      "type": "意象",
+      "count": 6,
+      "occurrences": [
+        "011_020.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "谷": {
+      "type": "意象",
+      "count": 3,
+      "occurrences": [
+        "011_020.tagged.md",
+        "021_040.tagged.md",
+        "041_060.tagged.md"
+      ]
+    },
+    "虚": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "011_020.tagged.md"
+      ]
+    },
+    "静": {
+      "type": "境界",
+      "count": 3,
+      "occurrences": [
+        "011_020.tagged.md",
+        "021_040.tagged.md"
+      ]
+    },
+    "自然": {
+      "type": "概念",
+      "count": 5,
+      "occurrences": [
+        "011_020.tagged.md",
+        "021_040.tagged.md",
+        "041_060.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "母": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "011_020.tagged.md"
+      ]
+    },
+    "德": {
+      "type": "概念",
+      "count": 36,
+      "occurrences": [
+        "021_040.tagged.md",
+        "041_060.tagged.md",
+        "061_081.tagged.md"
+      ]
+    },
+    "恍惚": {
+      "type": "境界",
+      "count": 3,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "曲": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "全": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "枉": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "直": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "洼": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "盈": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "敝": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "新": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "少": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "得": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "多": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "惑": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "重": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "轻": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "躁": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "溪": {
+      "type": "意象",
+      "count": 2,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "白": {
+      "type": "对立",
+      "count": 2,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "黑": {
+      "type": "对立",
+      "count": 2,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "荣": {
+      "type": "对立",
+      "count": 2,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "辱": {
+      "type": "对立",
+      "count": 2,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "神器": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "君子": {
+      "type": "主体",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "侯王": {
+      "type": "主体",
+      "count": 3,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "柔弱": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "刚强": {
+      "type": "对立",
+      "count": 1,
+      "occurrences": [
+        "021_040.tagged.md"
+      ]
+    },
+    "赤子": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "041_060.tagged.md"
+      ]
+    },
+    "玄同": {
+      "type": "境界",
+      "count": 1,
+      "occurrences": [
+        "041_060.tagged.md"
+      ]
+    },
+    "小鲜": {
+      "type": "意象",
+      "count": 1,
+      "occurrences": [
+        "041_060.tagged.md"
+      ]
+    },
+    "牝": {
+      "type": "意象",
+      "count": 2,
+      "occurrences": [
+        "061_081.tagged.md"
+      ]
+    },
+    "小国寡民": {
+      "type": "主体",
+      "count": 1,
+      "occurrences": [
+        "061_081.tagged.md"
+      ]
+    }
+  }
+}
