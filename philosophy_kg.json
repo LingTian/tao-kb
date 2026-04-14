@@ -1,0 +1,10275 @@
+{
+  "metadata": {
+    "scope": "Four philosophy classics",
+    "works": [
+      "Dao De Jing(道德经)",
+      "Zhuang Zi(庄子)",
+      "Lie Zi(列子)",
+      "Wen Zi(文子)"
+    ],
+    "source_files": [
+      "chapters/daodejing_001.tagged.md",
+      "chapters/daodejing_002_010.tagged.md",
+      "chapters/daodejing_011_020.tagged.md",
+      "chapters/daodejing_021_040.tagged.md",
+      "chapters/daodejing_041_060.tagged.md",
+      "chapters/daodejing_061_081.tagged.md",
+      "chapters/zhuangzi/00_Zhuangzi_Jiao_Quan.tagged.md",
+      "chapters/zhuangzi/01_Xiao_Yao_You.tagged.md",
+      "chapters/zhuangzi/02_Qi_Wu_Lun.tagged.md",
+      "chapters/zhuangzi/03_Yang_Sheng_Zhu.tagged.md",
+      "chapters/zhuangzi/04_Ren_Jian_Shi.tagged.md",
+      "chapters/zhuangzi/05_De_Chong_Fu.tagged.md",
+      "chapters/zhuangzi/06_Da_Zong_Shi.tagged.md",
+      "chapters/zhuangzi/07_Ying_Di_Wang.tagged.md",
+      "chapters/zhuangzi/08_Pian_Mu.tagged.md",
+      "chapters/zhuangzi/09_Ma_Ti.tagged.md",
+      "chapters/zhuangzi/10_Qu_Qie.tagged.md",
+      "chapters/zhuangzi/11_Zai_You.tagged.md",
+      "chapters/zhuangzi/12_Tian_Di.tagged.md",
+      "chapters/zhuangzi/13_Tian_Dao.tagged.md",
+      "chapters/zhuangzi/14_Tian_Yun.tagged.md",
+      "chapters/zhuangzi/15_Ke_Yi.tagged.md",
+      "chapters/zhuangzi/16_Shan_Xing.tagged.md",
+      "chapters/zhuangzi/17_Qiu_Shui.tagged.md",
+      "chapters/zhuangzi/18_Zhi_Le.tagged.md",
+      "chapters/zhuangzi/19_Da_Sheng.tagged.md",
+      "chapters/zhuangzi/20_Shan_Mu.tagged.md",
+      "chapters/zhuangzi/21_Tian_Zi_Fang.tagged.md",
+      "chapters/zhuangzi/22_Zhi_Bei_You.tagged.md",
+      "chapters/zhuangzi/23_Geng_Sang_Chu.tagged.md",
+      "chapters/zhuangzi/24_Xu_Wu_Gui.tagged.md",
+      "chapters/zhuangzi/25_Ze_Yang.tagged.md",
+      "chapters/zhuangzi/26_Wai_Wu.tagged.md",
+      "chapters/zhuangzi/27_Yu_Yan.tagged.md",
+      "chapters/zhuangzi/28_Rang_Wang.tagged.md",
+      "chapters/zhuangzi/29_Dao_Zhi.tagged.md",
+      "chapters/zhuangzi/30_Shuo_Jian.tagged.md",
+      "chapters/zhuangzi/31_Yu_Fu.tagged.md",
+      "chapters/zhuangzi/32_Lie_Yu_Kou.tagged.md",
+      "chapters/zhuangzi/33_Tian_Xia.tagged.md",
+      "chapters/liezi/00_Lie_Zi.tagged.md",
+      "chapters/wenzi/00_Wen_Zi.tagged.md"
+    ],
+    "cooccurrence_level": "file"
+  },
+  "nodes": [
+    {
+      "id": "概念:道",
+      "type": "概念",
+      "name": "道",
+      "weight": 4514,
+      "by_work": {
+        "Dao De Jing(道德经)": 64,
+        "Zhuang Zi(庄子)": 4450
+      }
+    },
+    {
+      "id": "概念:名",
+      "type": "概念",
+      "name": "名",
+      "weight": 5873,
+      "by_work": {
+        "Dao De Jing(道德经)": 4,
+        "Zhuang Zi(庄子)": 5869
+      }
+    },
+    {
+      "id": "境界:无名",
+      "type": "境界",
+      "name": "无名",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "境界:有名",
+      "type": "境界",
+      "name": "有名",
+      "weight": 31,
+      "by_work": {
+        "Dao De Jing(道德经)": 2,
+        "Lie Zi(列子)": 1,
+        "Wen Zi(文子)": 28
+      }
+    },
+    {
+      "id": "境界:无欲",
+      "type": "境界",
+      "name": "无欲",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "境界:妙",
+      "type": "境界",
+      "name": "妙",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "境界:有欲",
+      "type": "境界",
+      "name": "有欲",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "境界:徼",
+      "type": "境界",
+      "name": "徼",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "境界:玄",
+      "type": "境界",
+      "name": "玄",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "对立:美|恶",
+      "type": "对立",
+      "name": "美|恶",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "对立:善|不善",
+      "type": "对立",
+      "name": "善|不善",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "对立:有|无",
+      "type": "对立",
+      "name": "有|无",
+      "weight": 9,
+      "by_work": {
+        "Dao De Jing(道德经)": 9
+      }
+    },
+    {
+      "id": "对立:难|易",
+      "type": "对立",
+      "name": "难|易",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:长|短",
+      "type": "对立",
+      "name": "长|短",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:高|下",
+      "type": "对立",
+      "name": "高|下",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:音|声",
+      "type": "对立",
+      "name": "音|声",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:前|后",
+      "type": "对立",
+      "name": "前|后",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "主体:圣人",
+      "type": "主体",
+      "name": "圣人",
+      "weight": 30,
+      "by_work": {
+        "Dao De Jing(道德经)": 30
+      }
+    },
+    {
+      "id": "概念:无为",
+      "type": "概念",
+      "name": "无为",
+      "weight": 13,
+      "by_work": {
+        "Dao De Jing(道德经)": 13
+      }
+    },
+    {
+      "id": "境界:不言",
+      "type": "境界",
+      "name": "不言",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "主体:万物",
+      "type": "主体",
+      "name": "万物",
+      "weight": 7,
+      "by_work": {
+        "Dao De Jing(道德经)": 7
+      }
+    },
+    {
+      "id": "境界:无知无欲",
+      "type": "境界",
+      "name": "无知无欲",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:尘",
+      "type": "意象",
+      "name": "尘",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 113,
+      "by_work": {
+        "Dao De Jing(道德经)": 8,
+        "Lie Zi(列子)": 36,
+        "Wen Zi(文子)": 69
+      }
+    },
+    {
+      "id": "意象:刍狗",
+      "type": "意象",
+      "name": "刍狗",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "意象:橐龠",
+      "type": "意象",
+      "name": "橐龠",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "概念:中",
+      "type": "概念",
+      "name": "中",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "主体:谷神",
+      "type": "主体",
+      "name": "谷神",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:玄牝",
+      "type": "意象",
+      "name": "玄牝",
+      "weight": 4,
+      "by_work": {
+        "Dao De Jing(道德经)": 2,
+        "Lie Zi(列子)": 2
+      }
+    },
+    {
+      "id": "主体:天",
+      "type": "主体",
+      "name": "天",
+      "weight": 6,
+      "by_work": {
+        "Dao De Jing(道德经)": 6
+      }
+    },
+    {
+      "id": "主体:地",
+      "type": "主体",
+      "name": "地",
+      "weight": 5,
+      "by_work": {
+        "Dao De Jing(道德经)": 5
+      }
+    },
+    {
+      "id": "意象:水",
+      "type": "意象",
+      "name": "水",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "意象:金玉",
+      "type": "意象",
+      "name": "金玉",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:婴儿",
+      "type": "意象",
+      "name": "婴儿",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "境界:玄览",
+      "type": "境界",
+      "name": "玄览",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:雌|雄",
+      "type": "对立",
+      "name": "雌|雄",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "概念:玄德",
+      "type": "概念",
+      "name": "玄德",
+      "weight": 5,
+      "by_work": {
+        "Dao De Jing(道德经)": 3,
+        "Wen Zi(文子)": 2
+      }
+    },
+    {
+      "id": "意象:毂",
+      "type": "意象",
+      "name": "毂",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:器",
+      "type": "意象",
+      "name": "器",
+      "weight": 6,
+      "by_work": {
+        "Dao De Jing(道德经)": 6
+      }
+    },
+    {
+      "id": "概念:无物",
+      "type": "概念",
+      "name": "无物",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "境界:惚恍",
+      "type": "境界",
+      "name": "惚恍",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "概念:道纪",
+      "type": "概念",
+      "name": "道纪",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:朴",
+      "type": "意象",
+      "name": "朴",
+      "weight": 6,
+      "by_work": {
+        "Dao De Jing(道德经)": 6
+      }
+    },
+    {
+      "id": "意象:谷",
+      "type": "意象",
+      "name": "谷",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "境界:虚",
+      "type": "境界",
+      "name": "虚",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "境界:静",
+      "type": "境界",
+      "name": "静",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 716,
+      "by_work": {
+        "Dao De Jing(道德经)": 5,
+        "Zhuang Zi(庄子)": 690,
+        "Lie Zi(列子)": 6,
+        "Wen Zi(文子)": 15
+      }
+    },
+    {
+      "id": "意象:母",
+      "type": "意象",
+      "name": "母",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "概念:德",
+      "type": "概念",
+      "name": "德",
+      "weight": 2152,
+      "by_work": {
+        "Dao De Jing(道德经)": 36,
+        "Zhuang Zi(庄子)": 2116
+      }
+    },
+    {
+      "id": "境界:恍惚",
+      "type": "境界",
+      "name": "恍惚",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "对立:曲|全",
+      "type": "对立",
+      "name": "曲|全",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:枉|直",
+      "type": "对立",
+      "name": "枉|直",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:洼|盈",
+      "type": "对立",
+      "name": "洼|盈",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:敝|新",
+      "type": "对立",
+      "name": "敝|新",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:少|得",
+      "type": "对立",
+      "name": "少|得",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:多|惑",
+      "type": "对立",
+      "name": "多|惑",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:重|轻",
+      "type": "对立",
+      "name": "重|轻",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:静|躁",
+      "type": "对立",
+      "name": "静|躁",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "对立:雄|雌",
+      "type": "对立",
+      "name": "雄|雌",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "意象:溪",
+      "type": "意象",
+      "name": "溪",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "对立:白|黑",
+      "type": "对立",
+      "name": "白|黑",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "对立:荣|辱",
+      "type": "对立",
+      "name": "荣|辱",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "意象:神器",
+      "type": "意象",
+      "name": "神器",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "主体:君子",
+      "type": "主体",
+      "name": "君子",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "主体:侯王",
+      "type": "主体",
+      "name": "侯王",
+      "weight": 3,
+      "by_work": {
+        "Dao De Jing(道德经)": 3
+      }
+    },
+    {
+      "id": "对立:柔弱|刚强",
+      "type": "对立",
+      "name": "柔弱|刚强",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:赤子",
+      "type": "意象",
+      "name": "赤子",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "境界:玄同",
+      "type": "境界",
+      "name": "玄同",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:小鲜",
+      "type": "意象",
+      "name": "小鲜",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "意象:牝",
+      "type": "意象",
+      "name": "牝",
+      "weight": 2,
+      "by_work": {
+        "Dao De Jing(道德经)": 2
+      }
+    },
+    {
+      "id": "主体:小国寡民",
+      "type": "主体",
+      "name": "小国寡民",
+      "weight": 1,
+      "by_work": {
+        "Dao De Jing(道德经)": 1
+      }
+    },
+    {
+      "id": "概念:地",
+      "type": "概念",
+      "name": "地",
+      "weight": 4572,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4572
+      }
+    },
+    {
+      "id": "境界:逍遥",
+      "type": "境界",
+      "name": "逍遥",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "概念:天",
+      "type": "概念",
+      "name": "天",
+      "weight": 4737,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4737
+      }
+    },
+    {
+      "id": "生物:山木",
+      "type": "生物",
+      "name": "山木",
+      "weight": 100,
+      "by_work": {
+        "Zhuang Zi(庄子)": 100
+      }
+    },
+    {
+      "id": "概念:知",
+      "type": "概念",
+      "name": "知",
+      "weight": 4183,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4183
+      }
+    },
+    {
+      "id": "概念:神",
+      "type": "概念",
+      "name": "神",
+      "weight": 1205,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1205
+      }
+    },
+    {
+      "id": "概念:所待",
+      "type": "概念",
+      "name": "所待",
+      "weight": 21,
+      "by_work": {
+        "Zhuang Zi(庄子)": 21
+      }
+    },
+    {
+      "id": "概念:息",
+      "type": "概念",
+      "name": "息",
+      "weight": 348,
+      "by_work": {
+        "Zhuang Zi(庄子)": 348
+      }
+    },
+    {
+      "id": "人物:列子",
+      "type": "人物",
+      "name": "列子",
+      "weight": 615,
+      "by_work": {
+        "Zhuang Zi(庄子)": 559,
+        "Lie Zi(列子)": 56
+      }
+    },
+    {
+      "id": "人物:仲尼",
+      "type": "人物",
+      "name": "仲尼",
+      "weight": 254,
+      "by_work": {
+        "Zhuang Zi(庄子)": 240,
+        "Lie Zi(列子)": 14
+      }
+    },
+    {
+      "id": "生物:蜩",
+      "type": "生物",
+      "name": "蜩",
+      "weight": 69,
+      "by_work": {
+        "Zhuang Zi(庄子)": 69
+      }
+    },
+    {
+      "id": "生物:朝菌",
+      "type": "生物",
+      "name": "朝菌",
+      "weight": 10,
+      "by_work": {
+        "Zhuang Zi(庄子)": 10
+      }
+    },
+    {
+      "id": "生物:蟪蛄",
+      "type": "生物",
+      "name": "蟪蛄",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "生物:大椿",
+      "type": "生物",
+      "name": "大椿",
+      "weight": 7,
+      "by_work": {
+        "Zhuang Zi(庄子)": 6,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "生物:彭祖",
+      "type": "生物",
+      "name": "彭祖",
+      "weight": 32,
+      "by_work": {
+        "Zhuang Zi(庄子)": 31,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "人物:舜",
+      "type": "人物",
+      "name": "舜",
+      "weight": 292,
+      "by_work": {
+        "Zhuang Zi(庄子)": 292
+      }
+    },
+    {
+      "id": "生物:斥鴳",
+      "type": "生物",
+      "name": "斥鴳",
+      "weight": 5,
+      "by_work": {
+        "Zhuang Zi(庄子)": 5
+      }
+    },
+    {
+      "id": "境界:至人",
+      "type": "境界",
+      "name": "至人",
+      "weight": 231,
+      "by_work": {
+        "Zhuang Zi(庄子)": 214,
+        "Lie Zi(列子)": 4,
+        "Wen Zi(文子)": 13
+      }
+    },
+    {
+      "id": "人物:老子",
+      "type": "人物",
+      "name": "老子",
+      "weight": 669,
+      "by_work": {
+        "Zhuang Zi(庄子)": 480,
+        "Lie Zi(列子)": 4,
+        "Wen Zi(文子)": 185
+      }
+    },
+    {
+      "id": "人物:肩吾",
+      "type": "人物",
+      "name": "肩吾",
+      "weight": 45,
+      "by_work": {
+        "Zhuang Zi(庄子)": 45
+      }
+    },
+    {
+      "id": "人物:孔子",
+      "type": "人物",
+      "name": "孔子",
+      "weight": 548,
+      "by_work": {
+        "Zhuang Zi(庄子)": 505,
+        "Lie Zi(列子)": 40,
+        "Wen Zi(文子)": 3
+      }
+    },
+    {
+      "id": "人物:王倪",
+      "type": "人物",
+      "name": "王倪",
+      "weight": 34,
+      "by_work": {
+        "Zhuang Zi(庄子)": 34
+      }
+    },
+    {
+      "id": "人物:被衣",
+      "type": "人物",
+      "name": "被衣",
+      "weight": 32,
+      "by_work": {
+        "Zhuang Zi(庄子)": 32
+      }
+    },
+    {
+      "id": "人物:惠子",
+      "type": "人物",
+      "name": "惠子",
+      "weight": 113,
+      "by_work": {
+        "Zhuang Zi(庄子)": 113
+      }
+    },
+    {
+      "id": "人物:惠施",
+      "type": "人物",
+      "name": "惠施",
+      "weight": 143,
+      "by_work": {
+        "Zhuang Zi(庄子)": 143
+      }
+    },
+    {
+      "id": "人物:文王",
+      "type": "人物",
+      "name": "文王",
+      "weight": 142,
+      "by_work": {
+        "Zhuang Zi(庄子)": 141,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "生物:牛",
+      "type": "生物",
+      "name": "牛",
+      "weight": 255,
+      "by_work": {
+        "Zhuang Zi(庄子)": 255
+      }
+    },
+    {
+      "id": "人物:匠石",
+      "type": "人物",
+      "name": "匠石",
+      "weight": 32,
+      "by_work": {
+        "Zhuang Zi(庄子)": 32
+      }
+    },
+    {
+      "id": "人物:南伯子綦",
+      "type": "人物",
+      "name": "南伯子綦",
+      "weight": 12,
+      "by_work": {
+        "Zhuang Zi(庄子)": 12
+      }
+    },
+    {
+      "id": "人物:南郭子綦",
+      "type": "人物",
+      "name": "南郭子綦",
+      "weight": 17,
+      "by_work": {
+        "Zhuang Zi(庄子)": 17
+      }
+    },
+    {
+      "id": "生物:桂",
+      "type": "生物",
+      "name": "桂",
+      "weight": 37,
+      "by_work": {
+        "Zhuang Zi(庄子)": 37
+      }
+    },
+    {
+      "id": "人物:禹",
+      "type": "人物",
+      "name": "禹",
+      "weight": 190,
+      "by_work": {
+        "Zhuang Zi(庄子)": 190
+      }
+    },
+    {
+      "id": "人物:周公",
+      "type": "人物",
+      "name": "周公",
+      "weight": 59,
+      "by_work": {
+        "Zhuang Zi(庄子)": 58,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "人物:魏牟",
+      "type": "人物",
+      "name": "魏牟",
+      "weight": 15,
+      "by_work": {
+        "Zhuang Zi(庄子)": 15
+      }
+    },
+    {
+      "id": "境界:朝三",
+      "type": "境界",
+      "name": "朝三",
+      "weight": 11,
+      "by_work": {
+        "Zhuang Zi(庄子)": 10,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "生物:狙",
+      "type": "生物",
+      "name": "狙",
+      "weight": 90,
+      "by_work": {
+        "Zhuang Zi(庄子)": 90
+      }
+    },
+    {
+      "id": "生物:芧",
+      "type": "生物",
+      "name": "芧",
+      "weight": 38,
+      "by_work": {
+        "Zhuang Zi(庄子)": 38
+      }
+    },
+    {
+      "id": "境界:葆光",
+      "type": "境界",
+      "name": "葆光",
+      "weight": 6,
+      "by_work": {
+        "Zhuang Zi(庄子)": 6
+      }
+    },
+    {
+      "id": "生物:麋",
+      "type": "生物",
+      "name": "麋",
+      "weight": 14,
+      "by_work": {
+        "Zhuang Zi(庄子)": 14
+      }
+    },
+    {
+      "id": "生物:鹿",
+      "type": "生物",
+      "name": "鹿",
+      "weight": 55,
+      "by_work": {
+        "Zhuang Zi(庄子)": 55
+      }
+    },
+    {
+      "id": "生物:蝍且",
+      "type": "生物",
+      "name": "蝍且",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "概念:有待",
+      "type": "概念",
+      "name": "有待",
+      "weight": 43,
+      "by_work": {
+        "Zhuang Zi(庄子)": 42,
+        "Wen Zi(文子)": 1
+      }
+    },
+    {
+      "id": "概念:物化",
+      "type": "概念",
+      "name": "物化",
+      "weight": 67,
+      "by_work": {
+        "Zhuang Zi(庄子)": 63,
+        "Lie Zi(列子)": 2,
+        "Wen Zi(文子)": 2
+      }
+    },
+    {
+      "id": "人物:武王",
+      "type": "人物",
+      "name": "武王",
+      "weight": 51,
+      "by_work": {
+        "Zhuang Zi(庄子)": 50,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "人物:老聃",
+      "type": "人物",
+      "name": "老聃",
+      "weight": 146,
+      "by_work": {
+        "Zhuang Zi(庄子)": 137,
+        "Lie Zi(列子)": 8,
+        "Wen Zi(文子)": 1
+      }
+    },
+    {
+      "id": "生物:虎",
+      "type": "生物",
+      "name": "虎",
+      "weight": 134,
+      "by_work": {
+        "Zhuang Zi(庄子)": 134
+      }
+    },
+    {
+      "id": "人物:蘧伯玉",
+      "type": "人物",
+      "name": "蘧伯玉",
+      "weight": 11,
+      "by_work": {
+        "Zhuang Zi(庄子)": 11
+      }
+    },
+    {
+      "id": "生物:豹",
+      "type": "生物",
+      "name": "豹",
+      "weight": 65,
+      "by_work": {
+        "Zhuang Zi(庄子)": 65
+      }
+    },
+    {
+      "id": "生物:漆",
+      "type": "生物",
+      "name": "漆",
+      "weight": 26,
+      "by_work": {
+        "Zhuang Zi(庄子)": 26
+      }
+    },
+    {
+      "id": "人物:申徒嘉",
+      "type": "人物",
+      "name": "申徒嘉",
+      "weight": 11,
+      "by_work": {
+        "Zhuang Zi(庄子)": 11
+      }
+    },
+    {
+      "id": "人物:伯昏瞀人",
+      "type": "人物",
+      "name": "伯昏瞀人",
+      "weight": 19,
+      "by_work": {
+        "Zhuang Zi(庄子)": 12,
+        "Lie Zi(列子)": 7
+      }
+    },
+    {
+      "id": "境界:坐忘",
+      "type": "境界",
+      "name": "坐忘",
+      "weight": 42,
+      "by_work": {
+        "Zhuang Zi(庄子)": 42
+      }
+    },
+    {
+      "id": "概念:玄冥",
+      "type": "概念",
+      "name": "玄冥",
+      "weight": 24,
+      "by_work": {
+        "Zhuang Zi(庄子)": 24
+      }
+    },
+    {
+      "id": "人物:子祀",
+      "type": "人物",
+      "name": "子祀",
+      "weight": 21,
+      "by_work": {
+        "Zhuang Zi(庄子)": 21
+      }
+    },
+    {
+      "id": "人物:子犁",
+      "type": "人物",
+      "name": "子犁",
+      "weight": 11,
+      "by_work": {
+        "Zhuang Zi(庄子)": 11
+      }
+    },
+    {
+      "id": "人物:意而子",
+      "type": "人物",
+      "name": "意而子",
+      "weight": 10,
+      "by_work": {
+        "Zhuang Zi(庄子)": 10
+      }
+    },
+    {
+      "id": "人物:墨者",
+      "type": "人物",
+      "name": "墨者",
+      "weight": 34,
+      "by_work": {
+        "Zhuang Zi(庄子)": 34
+      }
+    },
+    {
+      "id": "人物:蒲衣子",
+      "type": "人物",
+      "name": "蒲衣子",
+      "weight": 9,
+      "by_work": {
+        "Zhuang Zi(庄子)": 9
+      }
+    },
+    {
+      "id": "人物:有虞氏",
+      "type": "人物",
+      "name": "有虞氏",
+      "weight": 24,
+      "by_work": {
+        "Zhuang Zi(庄子)": 24
+      }
+    },
+    {
+      "id": "人物:泰氏",
+      "type": "人物",
+      "name": "泰氏",
+      "weight": 11,
+      "by_work": {
+        "Zhuang Zi(庄子)": 11
+      }
+    },
+    {
+      "id": "人物:季咸",
+      "type": "人物",
+      "name": "季咸",
+      "weight": 20,
+      "by_work": {
+        "Zhuang Zi(庄子)": 19,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "人物:任公子",
+      "type": "人物",
+      "name": "任公子",
+      "weight": 8,
+      "by_work": {
+        "Zhuang Zi(庄子)": 8
+      }
+    },
+    {
+      "id": "生物:猿",
+      "type": "生物",
+      "name": "猿",
+      "weight": 37,
+      "by_work": {
+        "Zhuang Zi(庄子)": 37
+      }
+    },
+    {
+      "id": "概念:气",
+      "type": "概念",
+      "name": "气",
+      "weight": 4,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4
+      }
+    },
+    {
+      "id": "生物:蝴蝶",
+      "type": "生物",
+      "name": "蝴蝶",
+      "weight": 6,
+      "by_work": {
+        "Zhuang Zi(庄子)": 6
+      }
+    },
+    {
+      "id": "人物:市南宜僚",
+      "type": "人物",
+      "name": "市南宜僚",
+      "weight": 17,
+      "by_work": {
+        "Zhuang Zi(庄子)": 17
+      }
+    },
+    {
+      "id": "人物:儒者",
+      "type": "人物",
+      "name": "儒者",
+      "weight": 11,
+      "by_work": {
+        "Zhuang Zi(庄子)": 11
+      }
+    },
+    {
+      "id": "人物:百里奚",
+      "type": "人物",
+      "name": "百里奚",
+      "weight": 13,
+      "by_work": {
+        "Zhuang Zi(庄子)": 12,
+        "Wen Zi(文子)": 1
+      }
+    },
+    {
+      "id": "概念:无待",
+      "type": "概念",
+      "name": "无待",
+      "weight": 4,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4
+      }
+    },
+    {
+      "id": "地名:北冥",
+      "type": "地名",
+      "name": "北冥",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:鱼",
+      "type": "生物",
+      "name": "鱼",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "生物:鲲",
+      "type": "生物",
+      "name": "鲲",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "生物:鸟",
+      "type": "生物",
+      "name": "鸟",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "生物:鹏",
+      "type": "生物",
+      "name": "鹏",
+      "weight": 4,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4
+      }
+    },
+    {
+      "id": "隐喻:垂天之云",
+      "type": "隐喻",
+      "name": "垂天之云",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "概念:海运",
+      "type": "概念",
+      "name": "海运",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "地名:南冥",
+      "type": "地名",
+      "name": "南冥",
+      "weight": 4,
+      "by_work": {
+        "Zhuang Zi(庄子)": 4
+      }
+    },
+    {
+      "id": "境界:天池",
+      "type": "境界",
+      "name": "天池",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2,
+        "Lie Zi(列子)": 1
+      }
+    },
+    {
+      "id": "概念:扶摇",
+      "type": "概念",
+      "name": "扶摇",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "隐喻:野马",
+      "type": "隐喻",
+      "name": "野马",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "隐喻:尘埃",
+      "type": "隐喻",
+      "name": "尘埃",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:学鸠",
+      "type": "生物",
+      "name": "学鸠",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "对立:小知|大知",
+      "type": "对立",
+      "name": "小知|大知",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "对立:小年|大年",
+      "type": "对立",
+      "name": "小年|大年",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:小年",
+      "type": "概念",
+      "name": "小年",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:冥灵",
+      "type": "生物",
+      "name": "冥灵",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:彭祖",
+      "type": "人物",
+      "name": "彭祖",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "地名:冥海",
+      "type": "地名",
+      "name": "冥海",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "对立:小|大",
+      "type": "对立",
+      "name": "小|大",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:宋荣子",
+      "type": "人物",
+      "name": "宋荣子",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:内外之分",
+      "type": "境界",
+      "name": "内外之分",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:荣辱之境",
+      "type": "境界",
+      "name": "荣辱之境",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:乘天地之正",
+      "type": "概念",
+      "name": "乘天地之正",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:六气之辩",
+      "type": "概念",
+      "name": "六气之辩",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:无穷",
+      "type": "境界",
+      "name": "无穷",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:至人无己",
+      "type": "境界",
+      "name": "至人无己",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:神人无功",
+      "type": "境界",
+      "name": "神人无功",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:圣人无名",
+      "type": "境界",
+      "name": "圣人无名",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:丧其耦",
+      "type": "境界",
+      "name": "丧其耦",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:颜成子游",
+      "type": "人物",
+      "name": "颜成子游",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "隐喻:槁木",
+      "type": "隐喻",
+      "name": "槁木",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "隐喻:死灰",
+      "type": "隐喻",
+      "name": "死灰",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:子綦",
+      "type": "人物",
+      "name": "子綦",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "人物:偃",
+      "type": "人物",
+      "name": "偃",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:丧 me",
+      "type": "境界",
+      "name": "丧 me",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:人籁",
+      "type": "概念",
+      "name": "人籁",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "概念:地籁",
+      "type": "概念",
+      "name": "地籁",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "概念:天籁",
+      "type": "概念",
+      "name": "天籁",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "人物:子游",
+      "type": "人物",
+      "name": "子游",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "隐喻:大块",
+      "type": "隐喻",
+      "name": "大块",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:风",
+      "type": "生物",
+      "name": "风",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:明",
+      "type": "境界",
+      "name": "明",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "概念:道枢",
+      "type": "概念",
+      "name": "道枢",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:两行",
+      "type": "境界",
+      "name": "两行",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:昭氏",
+      "type": "人物",
+      "name": "昭氏",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:天府",
+      "type": "境界",
+      "name": "天府",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:尧",
+      "type": "人物",
+      "name": "尧",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:啮缺",
+      "type": "人物",
+      "name": "啮缺",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "人物:毛嫱",
+      "type": "人物",
+      "name": "毛嫱",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:丽姬",
+      "type": "人物",
+      "name": "丽姬",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "人物:瞿鹊子",
+      "type": "人物",
+      "name": "瞿鹊子",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:长梧子",
+      "type": "人物",
+      "name": "长梧子",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "境界:和之以天倪",
+      "type": "境界",
+      "name": "和之以天倪",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "隐喻:罔两",
+      "type": "隐喻",
+      "name": "罔两",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "隐喻:景",
+      "type": "隐喻",
+      "name": "景",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "人物:庄周",
+      "type": "人物",
+      "name": "庄周",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:督",
+      "type": "概念",
+      "name": "督",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:庖丁",
+      "type": "人物",
+      "name": "庖丁",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "人物:文惠君",
+      "type": "人物",
+      "name": "文惠君",
+      "weight": 3,
+      "by_work": {
+        "Zhuang Zi(庄子)": 3
+      }
+    },
+    {
+      "id": "境界:养生",
+      "type": "境界",
+      "name": "养生",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:公文轩",
+      "type": "人物",
+      "name": "公文轩",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:右师",
+      "type": "人物",
+      "name": "右师",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:泽雉",
+      "type": "生物",
+      "name": "泽雉",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:秦失",
+      "type": "人物",
+      "name": "秦失",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:遁天之刑",
+      "type": "概念",
+      "name": "遁天之刑",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:帝之悬解",
+      "type": "境界",
+      "name": "帝之悬解",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "隐喻:火",
+      "type": "隐喻",
+      "name": "火",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:颜回",
+      "type": "人物",
+      "name": "颜回",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "地名:卫",
+      "type": "地名",
+      "name": "卫",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:卫君",
+      "type": "人物",
+      "name": "卫君",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:蕉",
+      "type": "生物",
+      "name": "蕉",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "概念:心斋",
+      "type": "概念",
+      "name": "心斋",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "境界:虚室生白",
+      "type": "境界",
+      "name": "虚室生白",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:坐驰",
+      "type": "境界",
+      "name": "坐驰",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:伏戏",
+      "type": "人物",
+      "name": "伏戏",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:几蘧",
+      "type": "人物",
+      "name": "几蘧",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:叶公子高",
+      "type": "人物",
+      "name": "叶公子高",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "地名:齐",
+      "type": "地名",
+      "name": "齐",
+      "weight": 2,
+      "by_work": {
+        "Zhuang Zi(庄子)": 2
+      }
+    },
+    {
+      "id": "人物:颜阖",
+      "type": "人物",
+      "name": "颜阖",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:卫灵公",
+      "type": "人物",
+      "name": "卫灵公",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "地名:曲辕",
+      "type": "地名",
+      "name": "曲辕",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:栎社树",
+      "type": "生物",
+      "name": "栎社树",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "地名:商之丘",
+      "type": "地名",
+      "name": "商之丘",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:大木",
+      "type": "生物",
+      "name": "大木",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:支离疏",
+      "type": "人物",
+      "name": "支离疏",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "地名:楚",
+      "type": "地名",
+      "name": "楚",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "人物:楚狂接舆",
+      "type": "人物",
+      "name": "楚狂接舆",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "生物:膏火",
+      "type": "生物",
+      "name": "膏火",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "对立:有用之用",
+      "type": "对立",
+      "name": "有用之用",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "对立:无用之用",
+      "type": "对立",
+      "name": "无用之用",
+      "weight": 1,
+      "by_work": {
+        "Zhuang Zi(庄子)": 1
+      }
+    },
+    {
+      "id": "境界:真人",
+      "type": "境界",
+      "name": "真人",
+      "weight": 85,
+      "by_work": {
+        "Zhuang Zi(庄子)": 66,
+        "Lie Zi(列子)": 2,
+        "Wen Zi(文子)": 17
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "境界:无名",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:无名",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:道",
+      "weight": 31
+    },
+    {
+      "source": "主体:万物",
+      "target": "主体:圣人",
+      "weight": 3
+    },
+    {
+      "source": "主体:万物",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "意象:水",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "主体:地",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "主体:天",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "对立:有|无",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:婴儿",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:水",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:无为",
+      "weight": 4
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "主体:地",
+      "target": "主体:天",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "意象:玄牝",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:婴儿",
+      "weight": 3
+    },
+    {
+      "source": "对立:有|无",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "意象:水",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "意象:水",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "意象:水",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "概念:无为",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:无为",
+      "target": "概念:道",
+      "weight": 4
+    },
+    {
+      "source": "概念:玄德",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:器",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:谷",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:器",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:朴",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "意象:朴",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:朴",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "概念:自然",
+      "target": "概念:道",
+      "weight": 34
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:德",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:有名",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:无为",
+      "weight": 3
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:自然",
+      "weight": 33
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:道",
+      "weight": 33
+    },
+    {
+      "source": "概念:无为",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄德",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:任公子",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:伯昏瞀人",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:儒者",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:列子",
+      "weight": 12
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:匠石",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:南伯子綦",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:南郭子綦",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:周公",
+      "weight": 11
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:墨者",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:子犁",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:子祀",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:孔子",
+      "weight": 21
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:季咸",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:市南宜僚",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:惠子",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:惠施",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:意而子",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:文王",
+      "weight": 12
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:有虞氏",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:武王",
+      "weight": 9
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:王倪",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:申徒嘉",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:百里奚",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:禹",
+      "weight": 16
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:老子",
+      "weight": 15
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:老聃",
+      "weight": 11
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:肩吾",
+      "weight": 6
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:舜",
+      "weight": 18
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:蘧伯玉",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:被衣",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:坐忘",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:至人",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:名",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:地",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:天",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:德",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:息",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:物化",
+      "weight": 10
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:玄冥",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:知",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:神",
+      "weight": 20
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:自然",
+      "weight": 21
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:道",
+      "weight": 21
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:山木",
+      "weight": 6
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:桂",
+      "weight": 6
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:漆",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:牛",
+      "weight": 14
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:狙",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:虎",
+      "weight": 13
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:儒者",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:周公",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "人物:舜",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:名",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:地",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:天",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:德",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:息",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:知",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:神",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "人物:任公子",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:任公子",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:儒者",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:列子",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:周公",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:季咸",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:文王",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:舜",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:列子",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:周公",
+      "weight": 4
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:孔子",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:文王",
+      "weight": 4
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:有虞氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:百里奚",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:禹",
+      "weight": 4
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:老子",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:舜",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:名",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:地",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:天",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:德",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:息",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:知",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:神",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:牛",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:南伯子綦",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:南郭子綦",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:周公",
+      "weight": 10
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:墨者",
+      "weight": 5
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:孔子",
+      "weight": 14
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:季咸",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:市南宜僚",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:惠子",
+      "weight": 6
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:惠施",
+      "weight": 5
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:文王",
+      "weight": 10
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:有虞氏",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:武王",
+      "weight": 8
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:泰氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:王倪",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:百里奚",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:禹",
+      "weight": 11
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:老子",
+      "weight": 11
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:老聃",
+      "weight": 8
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:舜",
+      "weight": 14
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:蘧伯玉",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:被衣",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:魏牟",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:坐忘",
+      "weight": 5
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:至人",
+      "weight": 12
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:名",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:地",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:天",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:德",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:息",
+      "weight": 17
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:物化",
+      "weight": 9
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:玄冥",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:知",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:神",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:自然",
+      "weight": 17
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:道",
+      "weight": 16
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:山木",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:斥鴳",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:牛",
+      "weight": 15
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:虎",
+      "weight": 11
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:豹",
+      "weight": 7
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:鹿",
+      "weight": 6
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:麋",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:南伯子綦",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:南郭子綦",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:市南宜僚",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:禹",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:舜",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:南郭子綦",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:市南宜僚",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:禹",
+      "weight": 3
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:舜",
+      "weight": 3
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:南伯子綦",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:子犁",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:子祀",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:孔子",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:市南宜僚",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:惠子",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:惠施",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:意而子",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:王倪",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:禹",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:老子",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "人物:舜",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "境界:葆光",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:名",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:地",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:天",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:德",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:息",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:有待",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:知",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:神",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:孔子",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:季咸",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:市南宜僚",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:惠子",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:惠施",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:文王",
+      "weight": 11
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:有虞氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:武王",
+      "weight": 6
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:百里奚",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:禹",
+      "weight": 9
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:老子",
+      "weight": 10
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:老聃",
+      "weight": 8
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:舜",
+      "weight": 11
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:蘧伯玉",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:坐忘",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:至人",
+      "weight": 10
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:名",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:地",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:天",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:德",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:息",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:物化",
+      "weight": 7
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:知",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:神",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:自然",
+      "weight": 13
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:道",
+      "weight": 12
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:山木",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:牛",
+      "weight": 10
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:虎",
+      "weight": 9
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:豹",
+      "weight": 5
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:鹿",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:麋",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:孔子",
+      "weight": 6
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:市南宜僚",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:惠子",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:惠施",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:文王",
+      "weight": 5
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:有虞氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:武王",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:王倪",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:禹",
+      "weight": 6
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:老聃",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:舜",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:被衣",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:魏牟",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:至人",
+      "weight": 6
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:名",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:地",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:天",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:德",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:息",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:知",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:神",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:道",
+      "weight": 7
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:山木",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:牛",
+      "weight": 5
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:虎",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:子祀",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:意而子",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "人物:舜",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:子犁",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:意而子",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "人物:舜",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:子祀",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:季咸",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:市南宜僚",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:惠子",
+      "weight": 8
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:惠施",
+      "weight": 7
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:意而子",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:文王",
+      "weight": 12
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:有虞氏",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:武王",
+      "weight": 9
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:王倪",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:申徒嘉",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:百里奚",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:禹",
+      "weight": 16
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老子",
+      "weight": 17
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老聃",
+      "weight": 13
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:肩吾",
+      "weight": 6
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:舜",
+      "weight": 20
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:蘧伯玉",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:被衣",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:魏牟",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:坐忘",
+      "weight": 7
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:至人",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:名",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:地",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:天",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:德",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:息",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:有待",
+      "weight": 7
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:玄冥",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:知",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:神",
+      "weight": 22
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:自然",
+      "weight": 24
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:道",
+      "weight": 23
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:山木",
+      "weight": 6
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:牛",
+      "weight": 17
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:狙",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:虎",
+      "weight": 13
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:麋",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:有虞氏",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:泰氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:王倪",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:舜",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "人物:被衣",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "境界:坐忘",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "境界:至人",
+      "weight": 4
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:名",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:地",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:天",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:德",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:息",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:物化",
+      "weight": 4
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:知",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:神",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:季咸",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "人物:季咸",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:惠子",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:惠施",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:文王",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:禹",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:老聃",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:舜",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:名",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:地",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:天",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:德",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:息",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:知",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:神",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "概念:道",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:猿",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:虎",
+      "weight": 4
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:市南宜僚",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:惠施",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:文王",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:禹",
+      "weight": 6
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:老子",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:舜",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:至人",
+      "weight": 6
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:名",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:地",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:天",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:德",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:息",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:物化",
+      "weight": 4
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:知",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:神",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:自然",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:道",
+      "weight": 8
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:牛",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:虎",
+      "weight": 5
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:文王",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:禹",
+      "weight": 6
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:老子",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:舜",
+      "weight": 6
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:至人",
+      "weight": 6
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:名",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:地",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:天",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:德",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:息",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:知",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:神",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:道",
+      "weight": 7
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:牛",
+      "weight": 6
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:虎",
+      "weight": 5
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:意而子",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "人物:舜",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:意而子",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:有虞氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:武王",
+      "weight": 8
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:百里奚",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:禹",
+      "weight": 10
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:老子",
+      "weight": 8
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:老聃",
+      "weight": 8
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:肩吾",
+      "weight": 4
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:舜",
+      "weight": 13
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:坐忘",
+      "weight": 5
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:至人",
+      "weight": 10
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:名",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:地",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:天",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:德",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:息",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:物化",
+      "weight": 6
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:知",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:神",
+      "weight": 13
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:自然",
+      "weight": 15
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:道",
+      "weight": 14
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:山木",
+      "weight": 4
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:牛",
+      "weight": 10
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:虎",
+      "weight": 9
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:豹",
+      "weight": 5
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:麋",
+      "weight": 3
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:泰氏",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:王倪",
+      "weight": 4
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:百里奚",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:老子",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:老聃",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:肩吾",
+      "weight": 4
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:舜",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "人物:被衣",
+      "weight": 4
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "境界:坐忘",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:名",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:地",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:天",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:德",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:息",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:物化",
+      "weight": 4
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:知",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:神",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "生物:牛",
+      "weight": 4
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "生物:虎",
+      "weight": 4
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "人物:有虞氏",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:王倪",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:禹",
+      "weight": 8
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:老子",
+      "weight": 6
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:老聃",
+      "weight": 5
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:舜",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:被衣",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:魏牟",
+      "weight": 4
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:坐忘",
+      "weight": 4
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:至人",
+      "weight": 8
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:名",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:地",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:天",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:德",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:息",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:物化",
+      "weight": 5
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:知",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:神",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:自然",
+      "weight": 11
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:道",
+      "weight": 10
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:桂",
+      "weight": 4
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:漆",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:牛",
+      "weight": 9
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:虎",
+      "weight": 7
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:王倪",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:舜",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "生物:猿",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:泰氏",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:禹",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:舜",
+      "weight": 5
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "人物:被衣",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "境界:坐忘",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "人物:王倪",
+      "target": "境界:葆光",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:名",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:地",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:天",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:德",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:息",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:物化",
+      "weight": 5
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:知",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:神",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:王倪",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "人物:王倪",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "人物:舜",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:申徒嘉",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:禹",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:肩吾",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:舜",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "境界:至人",
+      "weight": 4
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:名",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:地",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:天",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:德",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:息",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:知",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:神",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:老子",
+      "weight": 12
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:老聃",
+      "weight": 8
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:肩吾",
+      "weight": 3
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:舜",
+      "weight": 17
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:蘧伯玉",
+      "weight": 4
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:被衣",
+      "weight": 3
+    },
+    {
+      "source": "人物:禹",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:禹",
+      "target": "境界:坐忘",
+      "weight": 5
+    },
+    {
+      "source": "人物:禹",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:禹",
+      "target": "境界:至人",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "境界:葆光",
+      "weight": 2
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:名",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:地",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:天",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:德",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:息",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:物化",
+      "weight": 9
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:玄冥",
+      "weight": 5
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:知",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:神",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:自然",
+      "weight": 16
+    },
+    {
+      "source": "人物:禹",
+      "target": "概念:道",
+      "weight": 18
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:山木",
+      "weight": 6
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:桂",
+      "weight": 6
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:漆",
+      "weight": 5
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:牛",
+      "weight": 14
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:狙",
+      "weight": 4
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:虎",
+      "weight": 11
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:蜩",
+      "weight": 4
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "人物:禹",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:老聃",
+      "weight": 15
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:肩吾",
+      "weight": 6
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:舜",
+      "weight": 15
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:蘧伯玉",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:被衣",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:魏牟",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:坐忘",
+      "weight": 8
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:至人",
+      "weight": 18
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:名",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:地",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:天",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:德",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:息",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:物化",
+      "weight": 12
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:玄冥",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:知",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:神",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:自然",
+      "weight": 19
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:道",
+      "weight": 17
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:山木",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:彭祖",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:牛",
+      "weight": 13
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:狙",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:虎",
+      "weight": 11
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:肩吾",
+      "weight": 6
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:舜",
+      "weight": 12
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:蘧伯玉",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:被衣",
+      "weight": 5
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:魏牟",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:坐忘",
+      "weight": 8
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:至人",
+      "weight": 14
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:名",
+      "weight": 13
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:地",
+      "weight": 13
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:天",
+      "weight": 13
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:德",
+      "weight": 13
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:息",
+      "weight": 13
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:有待",
+      "weight": 5
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:物化",
+      "weight": 11
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:知",
+      "weight": 14
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:神",
+      "weight": 13
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:自然",
+      "weight": 15
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:道",
+      "weight": 14
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:牛",
+      "weight": 10
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:狙",
+      "weight": 4
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:虎",
+      "weight": 8
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:豹",
+      "weight": 6
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "人物:舜",
+      "weight": 6
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "人物:被衣",
+      "weight": 4
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "人物:魏牟",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "境界:坐忘",
+      "weight": 5
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "境界:至人",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:名",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:地",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:天",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:德",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:息",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:有待",
+      "weight": 5
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:物化",
+      "weight": 4
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:知",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:神",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "概念:道",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:牛",
+      "weight": 5
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:猿",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:虎",
+      "weight": 5
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:舜",
+      "target": "人物:蒲衣子",
+      "weight": 2
+    },
+    {
+      "source": "人物:舜",
+      "target": "人物:蘧伯玉",
+      "weight": 3
+    },
+    {
+      "source": "人物:舜",
+      "target": "人物:被衣",
+      "weight": 5
+    },
+    {
+      "source": "人物:舜",
+      "target": "人物:魏牟",
+      "weight": 4
+    },
+    {
+      "source": "人物:舜",
+      "target": "境界:坐忘",
+      "weight": 9
+    },
+    {
+      "source": "人物:舜",
+      "target": "境界:朝三",
+      "weight": 2
+    },
+    {
+      "source": "人物:舜",
+      "target": "境界:至人",
+      "weight": 20
+    },
+    {
+      "source": "人物:舜",
+      "target": "境界:葆光",
+      "weight": 2
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:名",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:地",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:天",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:德",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:息",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:有待",
+      "weight": 5
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:物化",
+      "weight": 12
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:知",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:神",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:自然",
+      "weight": 24
+    },
+    {
+      "source": "人物:舜",
+      "target": "概念:道",
+      "weight": 26
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:山木",
+      "weight": 6
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:桂",
+      "weight": 6
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:漆",
+      "weight": 5
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:牛",
+      "weight": 18
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:虎",
+      "weight": 13
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "人物:舜",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:名",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:地",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:天",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:息",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:知",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:神",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "生物:猿",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "人物:蒲衣子",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "境界:坐忘",
+      "weight": 2
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:名",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:地",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:天",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:德",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:息",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:知",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:神",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "概念:道",
+      "weight": 4
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:蘧伯玉",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "人物:被衣",
+      "target": "人物:魏牟",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:坐忘",
+      "weight": 4
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:名",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:地",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:天",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:德",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:息",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:物化",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:知",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:神",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:牛",
+      "weight": 4
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:虎",
+      "weight": 4
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:名",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:地",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:天",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:德",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:息",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:知",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:神",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "概念:道",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:牛",
+      "weight": 4
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "人物:魏牟",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "境界:至人",
+      "weight": 8
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:名",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:地",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:天",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:德",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:息",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:有待",
+      "weight": 4
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:物化",
+      "weight": 6
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:知",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:神",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:自然",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "概念:道",
+      "weight": 9
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:牛",
+      "weight": 7
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:狙",
+      "weight": 4
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:虎",
+      "weight": 7
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:豹",
+      "weight": 5
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "境界:朝三",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "境界:朝三",
+      "target": "境界:葆光",
+      "weight": 2
+    },
+    {
+      "source": "境界:朝三",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "境界:朝三",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "境界:朝三",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "境界:朝三",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "境界:朝三",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "境界:朝三",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "境界:葆光",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:名",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:地",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:天",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:德",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:息",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:有待",
+      "weight": 7
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:知",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:神",
+      "weight": 21
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:自然",
+      "weight": 23
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:道",
+      "weight": 23
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:山木",
+      "weight": 6
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:牛",
+      "weight": 15
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:狙",
+      "weight": 5
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:虎",
+      "weight": 13
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "境界:葆光",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "境界:葆光",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "境界:葆光",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:地",
+      "weight": 30
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:天",
+      "weight": 30
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:德",
+      "weight": 30
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:息",
+      "weight": 30
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:知",
+      "weight": 30
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:神",
+      "weight": 29
+    },
+    {
+      "source": "概念:名",
+      "target": "概念:自然",
+      "weight": 30
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:名",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:天",
+      "weight": 30
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:德",
+      "weight": 30
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:息",
+      "weight": 30
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:知",
+      "weight": 30
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:神",
+      "weight": 29
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:自然",
+      "weight": 30
+    },
+    {
+      "source": "概念:地",
+      "target": "概念:道",
+      "weight": 30
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:地",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:德",
+      "weight": 30
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:息",
+      "weight": 30
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:知",
+      "weight": 30
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:神",
+      "weight": 29
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:自然",
+      "weight": 30
+    },
+    {
+      "source": "概念:天",
+      "target": "概念:道",
+      "weight": 30
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:天",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:息",
+      "weight": 30
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:所待",
+      "weight": 3
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:知",
+      "weight": 30
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:神",
+      "weight": 29
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:德",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:所待",
+      "weight": 4
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:有待",
+      "weight": 6
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:物化",
+      "weight": 13
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:玄冥",
+      "weight": 6
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:知",
+      "weight": 30
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:神",
+      "weight": 29
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:自然",
+      "weight": 30
+    },
+    {
+      "source": "概念:息",
+      "target": "概念:道",
+      "weight": 30
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:斥鴳",
+      "weight": 2
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:蜩",
+      "weight": 6
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:息",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:所待",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "概念:知",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "概念:神",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:斥鴳",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:牛",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "概念:所待",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:知",
+      "weight": 6
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:神",
+      "weight": 6
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:道",
+      "weight": 6
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:牛",
+      "weight": 4
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:虎",
+      "weight": 4
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:玄冥",
+      "weight": 3
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:知",
+      "weight": 13
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:神",
+      "weight": 13
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:自然",
+      "weight": 15
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:道",
+      "weight": 14
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:彭祖",
+      "weight": 4
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:牛",
+      "weight": 9
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:狙",
+      "weight": 4
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:虎",
+      "weight": 8
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:豹",
+      "weight": 7
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "概念:知",
+      "weight": 6
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "概念:神",
+      "weight": 6
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "概念:自然",
+      "weight": 6
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "概念:道",
+      "weight": 6
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:山木",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:漆",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:牛",
+      "weight": 5
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:狙",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:猿",
+      "weight": 3
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:虎",
+      "weight": 6
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄冥",
+      "target": "生物:豹",
+      "weight": 5
+    },
+    {
+      "source": "概念:知",
+      "target": "概念:神",
+      "weight": 29
+    },
+    {
+      "source": "概念:知",
+      "target": "概念:自然",
+      "weight": 30
+    },
+    {
+      "source": "概念:知",
+      "target": "概念:道",
+      "weight": 31
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:牛",
+      "weight": 21
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:知",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:神",
+      "target": "概念:自然",
+      "weight": 29
+    },
+    {
+      "source": "概念:神",
+      "target": "概念:道",
+      "weight": 29
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:神",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:山木",
+      "weight": 5
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:彭祖",
+      "weight": 7
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:桂",
+      "weight": 5
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:牛",
+      "weight": 20
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:山木",
+      "weight": 6
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:彭祖",
+      "weight": 6
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:桂",
+      "weight": 6
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:漆",
+      "weight": 5
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:牛",
+      "weight": 21
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:狙",
+      "weight": 6
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:猿",
+      "weight": 5
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:虎",
+      "weight": 15
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:蜩",
+      "weight": 5
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:蝴蝶",
+      "weight": 2
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:鹿",
+      "weight": 7
+    },
+    {
+      "source": "概念:道",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:斥鴳",
+      "weight": 2
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:漆",
+      "weight": 3
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:牛",
+      "weight": 4
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:猿",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:虎",
+      "weight": 5
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "生物:山木",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:桂",
+      "weight": 3
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:漆",
+      "weight": 2
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:牛",
+      "weight": 5
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:虎",
+      "weight": 4
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "生物:斥鴳",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "生物:斥鴳",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:斥鴳",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "生物:朝菌",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:朝菌",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "生物:桂",
+      "target": "生物:漆",
+      "weight": 4
+    },
+    {
+      "source": "生物:桂",
+      "target": "生物:牛",
+      "weight": 4
+    },
+    {
+      "source": "生物:桂",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "生物:桂",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:桂",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "生物:漆",
+      "target": "生物:牛",
+      "weight": 2
+    },
+    {
+      "source": "生物:漆",
+      "target": "生物:猿",
+      "weight": 2
+    },
+    {
+      "source": "生物:漆",
+      "target": "生物:虎",
+      "weight": 3
+    },
+    {
+      "source": "生物:漆",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:狙",
+      "weight": 5
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:虎",
+      "weight": 12
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:蜩",
+      "weight": 4
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:豹",
+      "weight": 8
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:鹿",
+      "weight": 6
+    },
+    {
+      "source": "生物:牛",
+      "target": "生物:麋",
+      "weight": 4
+    },
+    {
+      "source": "生物:狙",
+      "target": "生物:猿",
+      "weight": 4
+    },
+    {
+      "source": "生物:狙",
+      "target": "生物:芧",
+      "weight": 2
+    },
+    {
+      "source": "生物:狙",
+      "target": "生物:虎",
+      "weight": 6
+    },
+    {
+      "source": "生物:狙",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:狙",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "生物:狙",
+      "target": "生物:鹿",
+      "weight": 4
+    },
+    {
+      "source": "生物:猿",
+      "target": "生物:虎",
+      "weight": 5
+    },
+    {
+      "source": "生物:猿",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "生物:猿",
+      "target": "生物:鹿",
+      "weight": 3
+    },
+    {
+      "source": "生物:芧",
+      "target": "生物:虎",
+      "weight": 2
+    },
+    {
+      "source": "生物:芧",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "生物:芧",
+      "target": "生物:豹",
+      "weight": 2
+    },
+    {
+      "source": "生物:虎",
+      "target": "生物:蜩",
+      "weight": 3
+    },
+    {
+      "source": "生物:虎",
+      "target": "生物:豹",
+      "weight": 9
+    },
+    {
+      "source": "生物:虎",
+      "target": "生物:鹿",
+      "weight": 5
+    },
+    {
+      "source": "生物:虎",
+      "target": "生物:麋",
+      "weight": 2
+    },
+    {
+      "source": "生物:蜩",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "生物:蜩",
+      "target": "生物:豹",
+      "weight": 3
+    },
+    {
+      "source": "生物:豹",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "生物:鹿",
+      "target": "生物:麋",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:真人",
+      "weight": 8
+    },
+    {
+      "source": "人物:南郭子綦",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:真人",
+      "weight": 10
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:真人",
+      "weight": 6
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:真人",
+      "weight": 4
+    },
+    {
+      "source": "人物:禹",
+      "target": "境界:真人",
+      "weight": 7
+    },
+    {
+      "source": "人物:肩吾",
+      "target": "境界:真人",
+      "weight": 3
+    },
+    {
+      "source": "人物:舜",
+      "target": "境界:真人",
+      "weight": 7
+    },
+    {
+      "source": "境界:坐忘",
+      "target": "境界:真人",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "境界:至人",
+      "weight": 10
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:名",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:地",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:天",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:德",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:息",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:所待",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:有待",
+      "weight": 4
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:玄冥",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:知",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:神",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:自然",
+      "weight": 11
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:道",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:桂",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:牛",
+      "weight": 8
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:虎",
+      "weight": 6
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:豹",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:真人",
+      "weight": 8
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:真人",
+      "weight": 6
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:物化",
+      "weight": 7
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:真人",
+      "weight": 6
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:真人",
+      "weight": 5
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:狙",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:鹿",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:蜩",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:真人",
+      "weight": 3
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:山木",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:物化",
+      "weight": 2
+    }
+  ]
+}

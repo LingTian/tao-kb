@@ -1,0 +1,144 @@
+{
+  "total_files": 42,
+  "total_nodes": 232,
+  "total_links": 1618,
+  "top_concepts": [
+    {
+      "name": "名",
+      "count": 5873
+    },
+    {
+      "name": "天",
+      "count": 4737
+    },
+    {
+      "name": "地",
+      "count": 4572
+    },
+    {
+      "name": "道",
+      "count": 4514
+    },
+    {
+      "name": "知",
+      "count": 4183
+    },
+    {
+      "name": "德",
+      "count": 2152
+    },
+    {
+      "name": "神",
+      "count": 1205
+    },
+    {
+      "name": "自然",
+      "count": 716
+    },
+    {
+      "name": "息",
+      "count": 348
+    },
+    {
+      "name": "物化",
+      "count": 67
+    },
+    {
+      "name": "有待",
+      "count": 43
+    },
+    {
+      "name": "玄冥",
+      "count": 24
+    },
+    {
+      "name": "所待",
+      "count": 21
+    },
+    {
+      "name": "无为",
+      "count": 13
+    },
+    {
+      "name": "玄德",
+      "count": 5
+    }
+  ],
+  "top_thoughts": [
+    {
+      "type": "概念",
+      "name": "名",
+      "count": 5873
+    },
+    {
+      "type": "概念",
+      "name": "天",
+      "count": 4737
+    },
+    {
+      "type": "概念",
+      "name": "地",
+      "count": 4572
+    },
+    {
+      "type": "概念",
+      "name": "道",
+      "count": 4514
+    },
+    {
+      "type": "概念",
+      "name": "知",
+      "count": 4183
+    },
+    {
+      "type": "概念",
+      "name": "德",
+      "count": 2152
+    },
+    {
+      "type": "概念",
+      "name": "神",
+      "count": 1205
+    },
+    {
+      "type": "概念",
+      "name": "自然",
+      "count": 716
+    },
+    {
+      "type": "概念",
+      "name": "息",
+      "count": 348
+    },
+    {
+      "type": "主体",
+      "name": "天地",
+      "count": 113
+    },
+    {
+      "type": "概念",
+      "name": "物化",
+      "count": 67
+    },
+    {
+      "type": "概念",
+      "name": "有待",
+      "count": 43
+    },
+    {
+      "type": "主体",
+      "name": "圣人",
+      "count": 30
+    },
+    {
+      "type": "概念",
+      "name": "玄冥",
+      "count": 24
+    },
+    {
+      "type": "概念",
+      "name": "所待",
+      "count": 21
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>tao-kb 哲学层互动知识图谱</title>
+  <script src="https://unpkg.com/vis-network@9.1.9/dist/vis-network.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #171a21;
+      --border: #2a3040;
+      --text: #e7e9ee;
+      --muted: #a2a8b3;
+      --accent: #7dd3fc;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+    }
+    .app {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      min-height: 100vh;
+    }
+    .left {
+      background: var(--panel);
+      border-right: 1px solid var(--border);
+      padding: 14px;
+      overflow: auto;
+    }
+    .title { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .sub { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
+    .input, .select, .btn {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #11141b;
+      color: var(--text);
+      padding: 8px 10px;
+      margin-bottom: 8px;
+    }
+    .btn { cursor: pointer; }
+    .stats { font-size: 12px; color: var(--muted); margin: 10px 0; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .chip {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 12px;
+      cursor: pointer;
+      user-select: none;
+      background: #11141b;
+    }
+    .chip.off { opacity: 0.35; }
+    #graph {
+      width: 100%;
+      height: 100vh;
+      background: radial-gradient(circle at 50% 50%, #0f1320 0%, #0b0d12 60%);
+    }
+    @media (max-width: 900px) {
+      .app { grid-template-columns: 1fr; }
+      .left { border-right: none; border-bottom: 1px solid var(--border); }
+      #graph { height: 70vh; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="left">
+      <div class="title">哲学层互动图谱</div>
+      <div class="sub">四经：道德经 / 庄子 / 列子 / 文子（去偏版）</div>
+
+      <input id="searchInput" class="input" placeholder="搜索节点（如：道 / 无为 / 圣人）" />
+      <select id="typeFilter" class="select">
+        <option value="all">全部类型</option>
+      </select>
+      <input id="minEdge" class="input" type="number" min="1" value="2" />
+      <button id="applyBtn" class="btn">应用筛选</button>
+      <button id="resetBtn" class="btn">重置视图</button>
+      <div class="stats" id="stats"></div>
+      <div class="chips" id="typeChips"></div>
+      <div class="sub" id="selectionInfo">点击节点查看详情</div>
+    </aside>
+    <main>
+      <div id="graph"></div>
+    </main>
+  </div>
+
+  <script>
+    const TYPE_COLOR = {
+      "概念": "#a78bfa",
+      "主体": "#34d399",
+      "人物": "#fb923c",
+      "地名": "#38bdf8",
+      "生物": "#facc15",
+      "境界": "#22c55e",
+      "意象": "#f472b6",
+      "隐喻": "#f472b6",
+      "对立": "#ef4444"
+    };
+
+    let RAW = null;
+    let network = null;
+    let activeTypes = new Set();
+
+    const searchInput = document.getElementById("searchInput");
+    const typeFilter = document.getElementById("typeFilter");
+    const minEdgeInput = document.getElementById("minEdge");
+    const applyBtn = document.getElementById("applyBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const statsEl = document.getElementById("stats");
+    const chipsEl = document.getElementById("typeChips");
+    const selectionInfo = document.getElementById("selectionInfo");
+
+    function norm(str) {
+      return (str || "").toLowerCase().trim();
+    }
+
+    function buildTypeUi(types) {
+      typeFilter.innerHTML = `<option value="all">全部类型</option>` +
+        types.map(t => `<option value="${t}">${t}</option>`).join("");
+
+      chipsEl.innerHTML = types.map(t => `<span class="chip" data-type="${t}">${t}</span>`).join("");
+      for (const chip of chipsEl.querySelectorAll(".chip")) {
+        chip.addEventListener("click", () => {
+          const t = chip.dataset.type;
+          if (activeTypes.has(t)) activeTypes.delete(t);
+          else activeTypes.add(t);
+          chip.classList.toggle("off", !activeTypes.has(t));
+          render();
+        });
+      }
+    }
+
+    function filterData() {
+      const q = norm(searchInput.value);
+      const selectedType = typeFilter.value;
+      const minEdge = Math.max(1, Number(minEdgeInput.value || 2));
+
+      const nodes = RAW.nodes.filter(n => {
+        if (selectedType !== "all" && n.type !== selectedType) return false;
+        if (activeTypes.size && !activeTypes.has(n.type)) return false;
+        if (q && !(`${n.name} ${n.type}`.toLowerCase().includes(q))) return false;
+        return true;
+      });
+
+      const ids = new Set(nodes.map(n => n.id));
+      const edges = RAW.links.filter(e =>
+        e.weight >= minEdge && ids.has(e.source) && ids.has(e.target)
+      );
+
+      return { nodes, edges };
+    }
+
+    function render() {
+      if (!RAW) return;
+      const { nodes, edges } = filterData();
+      statsEl.textContent = `节点 ${nodes.length} | 关系 ${edges.length}`;
+
+      const visNodes = new vis.DataSet(nodes.map(n => ({
+        id: n.id,
+        label: n.name,
+        title: `${n.type}: ${n.name}\n权重: ${n.weight}`,
+        value: Math.max(4, Math.log2(n.weight + 1) * 3),
+        color: TYPE_COLOR[n.type] || "#94a3b8",
+        font: { color: "#e8edf7", size: 16 }
+      })));
+
+      const visEdges = new vis.DataSet(edges.map(e => ({
+        from: e.source,
+        to: e.target,
+        width: Math.min(8, 1 + Math.log2(e.weight)),
+        color: { color: "rgba(180,190,210,0.35)" },
+        title: `共现权重: ${e.weight}`
+      })));
+
+      const container = document.getElementById("graph");
+      const data = { nodes: visNodes, edges: visEdges };
+      const options = {
+        interaction: { hover: true, navigationButtons: true, keyboard: true },
+        physics: {
+          stabilization: false,
+          barnesHut: { gravitationalConstant: -5000, springLength: 140, damping: 0.35 }
+        },
+        edges: { smooth: true },
+        nodes: { shape: "dot", scaling: { min: 6, max: 40 } }
+      };
+
+      network = new vis.Network(container, data, options);
+      network.on("click", params => {
+        if (!params.nodes.length) {
+          selectionInfo.textContent = "点击节点查看详情";
+          return;
+        }
+        const node = RAW.nodes.find(n => n.id === params.nodes[0]);
+        if (!node) return;
+        const byWork = Object.entries(node.by_work || {})
+          .sort((a, b) => b[1] - a[1])
+          .map(([w, c]) => `${w}: ${c}`)
+          .join(" | ");
+        selectionInfo.textContent = `${node.type} · ${node.name} · 权重 ${node.weight}${byWork ? " · " + byWork : ""}`;
+      });
+    }
+
+    async function init() {
+      const res = await fetch("./philosophy_kg_debiased.json");
+      RAW = await res.json();
+      const types = [...new Set(RAW.nodes.map(n => n.type))].sort();
+      types.forEach(t => activeTypes.add(t));
+      buildTypeUi(types);
+      render();
+    }
+
+    applyBtn.addEventListener("click", render);
+    resetBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      typeFilter.value = "all";
+      minEdgeInput.value = 2;
+      const types = [...new Set(RAW.nodes.map(n => n.type))];
+      activeTypes = new Set(types);
+      for (const chip of chipsEl.querySelectorAll(".chip")) chip.classList.remove("off");
+      render();
+      if (network) network.fit({ animation: true });
+    });
+
+    init();
+  </script>
+</body>
+</html>

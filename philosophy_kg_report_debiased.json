@@ -1,0 +1,144 @@
+{
+  "total_files": 41,
+  "total_nodes": 228,
+  "total_links": 1116,
+  "top_concepts": [
+    {
+      "name": "名",
+      "count": 2562
+    },
+    {
+      "name": "天",
+      "count": 2131
+    },
+    {
+      "name": "知",
+      "count": 2066
+    },
+    {
+      "name": "道",
+      "count": 2009
+    },
+    {
+      "name": "地",
+      "count": 1762
+    },
+    {
+      "name": "德",
+      "count": 1094
+    },
+    {
+      "name": "神",
+      "count": 534
+    },
+    {
+      "name": "自然",
+      "count": 430
+    },
+    {
+      "name": "息",
+      "count": 219
+    },
+    {
+      "name": "物化",
+      "count": 31
+    },
+    {
+      "name": "有待",
+      "count": 15
+    },
+    {
+      "name": "玄冥",
+      "count": 14
+    },
+    {
+      "name": "无为",
+      "count": 13
+    },
+    {
+      "name": "玄德",
+      "count": 5
+    },
+    {
+      "name": "所待",
+      "count": 5
+    }
+  ],
+  "top_thoughts": [
+    {
+      "type": "概念",
+      "name": "名",
+      "count": 2562
+    },
+    {
+      "type": "概念",
+      "name": "天",
+      "count": 2131
+    },
+    {
+      "type": "概念",
+      "name": "知",
+      "count": 2066
+    },
+    {
+      "type": "概念",
+      "name": "道",
+      "count": 2009
+    },
+    {
+      "type": "概念",
+      "name": "地",
+      "count": 1762
+    },
+    {
+      "type": "概念",
+      "name": "德",
+      "count": 1094
+    },
+    {
+      "type": "概念",
+      "name": "神",
+      "count": 534
+    },
+    {
+      "type": "概念",
+      "name": "自然",
+      "count": 430
+    },
+    {
+      "type": "概念",
+      "name": "息",
+      "count": 219
+    },
+    {
+      "type": "主体",
+      "name": "天地",
+      "count": 113
+    },
+    {
+      "type": "概念",
+      "name": "物化",
+      "count": 31
+    },
+    {
+      "type": "主体",
+      "name": "圣人",
+      "count": 30
+    },
+    {
+      "type": "概念",
+      "name": "有待",
+      "count": 15
+    },
+    {
+      "type": "概念",
+      "name": "玄冥",
+      "count": 14
+    },
+    {
+      "type": "概念",
+      "name": "无为",
+      "count": 13
+    }
+  ]
+}

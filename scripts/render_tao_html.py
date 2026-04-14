@@ -46,6 +46,8 @@ def classify_text_category_and_work(rel_path: str) -> Tuple[str, str]:
         return "Philosophy(哲学)", "Dao De Jing(道德经)"
     if rel_path.startswith("chapters/liezi/"):
         return "Philosophy(哲学)", "Lie Zi(列子)"
+    if rel_path.startswith("chapters/wenzi/"):
+        return "Philosophy(哲学)", "Wen Zi(文子)"
     if rel_path.startswith("texts/Ritual(科仪符箓)/"):
         parts = rel_path.split("/")
         if len(parts) >= 4:
@@ -229,6 +231,9 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
     <aside class="sidebar">
       <div class="title">tao-kb 阅读器</div>
       <div class="sub">按标注类型高亮阅读</div>
+      <a href="./philosophy-graph.html" class="search" style="display:block;text-decoration:none;text-align:center;margin-bottom:10px;">
+        进入哲学层互动图谱
+      </a>
       <select id="categoryFilter" class="select">
         <option value="all">全部分类</option>
         <option value="Philosophy(哲学)">Philosophy(哲学)</option>
