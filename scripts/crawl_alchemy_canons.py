@@ -30,7 +30,12 @@ class CanonSource:
 
 SOURCES: List[CanonSource] = [
     CanonSource("Shangqing(上清经系)", ["上清大洞真經", "上清大洞真经"], "shangqing_dadong_zhenjing.md", "上清大洞真经"),
-    CanonSource("Shangqing(上清经系)", ["黃庭經", "黄庭经"], "huangtingjing.md", "黄庭经"),
+    CanonSource(
+        "Shangqing(上清经系)",
+        ["黃庭內景經", "黄庭内景经", "黃庭外景經", "黄庭外景经", "黃庭經", "黄庭经"],
+        "huangtingjing.md",
+        "黄庭经",
+    ),
     CanonSource(
         "Lingbao(灵宝经系)",
         [
@@ -150,6 +155,34 @@ def fetch_recursive_text(root_title: str) -> str:
     return sanitize_text("\n\n".join(sections))
 
 
+def fetch_linked_chapters(title: str) -> str:
+    """Follow chapter links from catalog-style root pages."""
+    data = mediawiki_query({"action": "parse", "format": "json", "page": title, "prop": "links", "redirects": "1"})
+    links = data.get("parse", {}).get("links", [])
+    chapter_titles: List[str] = []
+    for item in links:
+        if item.get("ns") != 0:
+            continue
+        link_title = item.get("*", "").strip()
+        if "/" not in link_title:
+            continue
+        if link_title.endswith("/全覽") or link_title.endswith("/序"):
+            continue
+        chapter_titles.append(link_title)
+
+    blocks: List[str] = []
+    seen = set()
+    for chapter in chapter_titles:
+        if chapter in seen:
+            continue
+        seen.add(chapter)
+        text = fetch_title_text(chapter)
+        if text:
+            blocks.append(f"## {chapter}\n\n{text}")
+            time.sleep(0.1)
+    return sanitize_text("\n\n".join(blocks))
+
+
 def save(path: Path, source_title: str, display_label: str, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -168,11 +201,31 @@ def run(only: List[str]) -> None:
         used = ""
         text = ""
         try:
-            for t in s.titles:
-                text = fetch_recursive_text(t)
-                if text:
-                    used = t
-                    break
+            # Special merge strategy for Huangtingjing family pages.
+            if s.label == "黄庭经":
+                parts = []
+                used_titles = []
+                for t in s.titles:
+                    t_text = fetch_recursive_text(t)
+                    if t in {"黃庭內景經", "黄庭内景经"} and len(t_text) < 200:
+                        t_text = fetch_linked_chapters(t)
+                    # skip disambiguation-like short pages
+                    if not t_text or len(t_text) < 200:
+                        continue
+                    if t in {"黃庭內景經", "黄庭内景经", "黃庭外景經", "黄庭外景经"}:
+                        parts.append(f"## {t}\n\n{t_text}")
+                    else:
+                        parts.append(t_text)
+                    used_titles.append(t)
+                text = sanitize_text("\n\n".join(parts))
+                if used_titles:
+                    used = " / ".join(used_titles)
+            else:
+                for t in s.titles:
+                    text = fetch_recursive_text(t)
+                    if text:
+                        used = t
+                        break
             if not text:
                 fail.append((s.label, "not found/empty"))
                 print(f"[FAIL] {s.label}: not found/empty")
