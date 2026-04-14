@@ -33,13 +33,30 @@ SOURCES: List[CanonSource] = [
     CanonSource("Shangqing(上清经系)", ["黃庭經", "黄庭经"], "huangtingjing.md", "黄庭经"),
     CanonSource(
         "Lingbao(灵宝经系)",
-        ["靈寶度人經", "灵宝度人经", "元始無量度人上品妙經", "元始无量度人上品妙经"],
+        [
+            "靈寶度人經",
+            "灵宝度人经",
+            "靈寶無量度人上品妙經",
+            "灵宝无量度人上品妙经",
+            "元始無量度人上品妙經",
+            "元始无量度人上品妙经",
+        ],
         "lingbao_durenjing.md",
         "灵宝度人经",
     ),
-    CanonSource("Lingbao(灵宝经系)", ["太上靈寶五符序", "太上灵宝五符序"], "taishang_lingbao_wufuxu.md", "太上灵宝五符序"),
+    CanonSource(
+        "Lingbao(灵宝经系)",
+        ["太上洞玄靈寶五符序", "太上洞玄灵宝五符序", "太上靈寶五符序", "太上灵宝五符序"],
+        "taishang_lingbao_wufuxu.md",
+        "太上灵宝五符序",
+    ),
     CanonSource("Zhengyi(正一经系)", ["正一法文", "正一法文天師教戒科經", "正一法文天师教戒科经"], "zhengyi_fawen.md", "正一法文"),
-    CanonSource("Zhengyi(正一经系)", ["三五都功經籙", "三五都功经箓"], "sanwu_dugong_jinglu.md", "三五都功经箓"),
+    CanonSource(
+        "Zhengyi(正一经系)",
+        ["三五都功經籙", "三五都功经箓", "正一修真略儀", "正一修真略仪"],
+        "sanwu_dugong_jinglu.md",
+        "三五都功经箓",
+    ),
 ]
 
 
