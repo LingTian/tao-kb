@@ -17,6 +17,7 @@ from typing import Dict, List, Tuple
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS_DIR = ROOT / "chapters"
 OUT_HTML = ROOT / "docs" / "index.html"
+TAXONOMY_FILE = ROOT / "tag_taxonomy.json"
 
 TAG_PATTERN = re.compile(r"〖@([^:]+):([^〗]+)〗")
 
@@ -42,6 +43,18 @@ def sanitize_class_name(tag_type: str) -> str:
     safe = re.sub(r"\s+", "-", tag_type.strip())
     safe = re.sub(r"[^0-9A-Za-z_\-\u4e00-\u9fff]", "-", safe)
     return safe or "unknown"
+
+
+def load_taxonomy() -> Dict[str, str]:
+    if not TAXONOMY_FILE.exists():
+        return {}
+    try:
+        data = json.loads(TAXONOMY_FILE.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            return {str(k): str(v) for k, v in data.items()}
+    except Exception:
+        pass
+    return {}
 
 
 def render_line(line: str, stats: Dict[str, int]) -> str:
@@ -102,9 +115,20 @@ def build_payload() -> Tuple[List[Dict], Dict[str, int]]:
     return chapters, total_stats
 
 
-def render_html(chapters: List[Dict], total_stats: Dict[str, int]) -> str:
+def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dict[str, str]) -> str:
+    category_to_types: Dict[str, List[str]] = {}
+    for t in sorted(total_stats.keys()):
+        c = taxonomy.get(t, "未分类")
+        category_to_types.setdefault(c, []).append(t)
+
     payload_json = json.dumps(
-        {"chapters": chapters, "tagTypes": sorted(total_stats.keys()), "tagStats": total_stats},
+        {
+            "chapters": chapters,
+            "tagTypes": sorted(total_stats.keys()),
+            "tagStats": total_stats,
+            "taxonomy": taxonomy,
+            "categoryToTypes": category_to_types,
+        },
         ensure_ascii=False,
     )
     return f"""<!doctype html>
@@ -140,7 +164,12 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int]) -> str:
     .path {{ color: var(--muted); font-size: 11px; margin-top: 2px; }}
     .toolbar {{ position: sticky; top: 0; background: var(--bg); padding-bottom: 10px; margin-bottom: 8px; border-bottom: 1px solid var(--border); }}
     .switch {{ display: inline-flex; align-items: center; gap: 6px; margin-right: 12px; color: var(--muted); font-size: 13px; }}
-    .tags {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }}
+    .tags {{ display: grid; gap: 10px; margin-top: 8px; }}
+    .tag-group {{ border: 1px solid var(--border); border-radius: 10px; padding: 8px; background: #11141b; }}
+    .tag-group-head {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }}
+    .tag-group-title {{ font-size: 13px; color: var(--accent); font-weight: 600; }}
+    .tag-group-actions {{ display: flex; gap: 6px; }}
+    .chip-row {{ display: flex; flex-wrap: wrap; gap: 8px; }}
     .chip {{ border: 1px solid var(--border); border-radius: 999px; padding: 4px 8px; font-size: 12px; cursor: pointer; color: var(--text); background: #11141b; }}
     .chip.off {{ opacity: 0.35; }}
     .tag {{ border-radius: 4px; padding: 0 2px; }}
@@ -229,16 +258,50 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int]) -> str:
     }}
 
     function renderTagChips() {{
-      chipsEl.innerHTML = DATA.tagTypes.map(t => {{
-        const off = state.enabledTypes.has(t) ? "" : "off";
-        const n = DATA.tagStats[t] || 0;
-        return `<button class="chip ${{off}}" data-type="${{t}}">${{t}} (${{n}})</button>`;
+      const categories = Object.keys(DATA.categoryToTypes).sort();
+      chipsEl.innerHTML = categories.map(cat => {{
+        const types = DATA.categoryToTypes[cat] || [];
+        const allOn = types.every(t => state.enabledTypes.has(t));
+        const chips = types.map(t => {{
+          const off = state.enabledTypes.has(t) ? "" : "off";
+          const n = DATA.tagStats[t] || 0;
+          return `<button class="chip ${{off}}" data-type="${{t}}">${{t}} (${{n}})</button>`;
+        }}).join("");
+        return `
+          <section class="tag-group" data-category="${{cat}}">
+            <div class="tag-group-head">
+              <span class="tag-group-title">${{cat}}</span>
+              <div class="tag-group-actions">
+                <button class="chip category-toggle" data-category="${{cat}}" data-mode="${{allOn ? "off" : "on"}}">
+                  ${{allOn ? "全关" : "全开"}}
+                </button>
+              </div>
+            </div>
+            <div class="chip-row">${{chips}}</div>
+          </section>
+        `;
       }}).join("");
-      for (const el of chipsEl.querySelectorAll(".chip")) {{
+
+      for (const el of chipsEl.querySelectorAll(".chip[data-type]")) {{
         el.addEventListener("click", () => {{
           const t = el.dataset.type;
           if (state.enabledTypes.has(t)) state.enabledTypes.delete(t);
           else state.enabledTypes.add(t);
+          renderReader();
+          renderTagChips();
+        }});
+      }}
+
+      for (const el of chipsEl.querySelectorAll(".category-toggle")) {{
+        el.addEventListener("click", () => {{
+          const cat = el.dataset.category;
+          const mode = el.dataset.mode;
+          const types = DATA.categoryToTypes[cat] || [];
+          if (mode === "on") {{
+            types.forEach(t => state.enabledTypes.add(t));
+          }} else {{
+            types.forEach(t => state.enabledTypes.delete(t));
+          }}
           renderReader();
           renderTagChips();
         }});
@@ -291,9 +354,10 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int]) -> str:
 
 
 def main() -> None:
+    taxonomy = load_taxonomy()
     chapters, total_stats = build_payload()
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
-    OUT_HTML.write_text(render_html(chapters, total_stats), encoding="utf-8")
+    OUT_HTML.write_text(render_html(chapters, total_stats, taxonomy), encoding="utf-8")
     print(f"Rendered {len(chapters)} chapters -> {OUT_HTML}")
     print(f"Tag types: {', '.join(sorted(total_stats.keys()))}")
 
