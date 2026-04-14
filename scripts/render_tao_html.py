@@ -44,6 +44,8 @@ def classify_text_category_and_work(rel_path: str) -> Tuple[str, str]:
         return "Philosophy(哲学)", "Zhuang Zi(庄子)"
     if rel_path.startswith("chapters/daodejing_"):
         return "Philosophy(哲学)", "Dao De Jing(道德经)"
+    if rel_path.startswith("chapters/liezi/"):
+        return "Philosophy(哲学)", "Lie Zi(列子)"
     if rel_path.startswith("texts/Ritual(科仪符箓)/"):
         parts = rel_path.split("/")
         if len(parts) >= 4:
