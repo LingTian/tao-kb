@@ -16,6 +16,7 @@ import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from typing import Dict, List
+from urllib.error import URLError
 
 
 API_URL = "https://zh.wikisource.org/w/api.php"
@@ -62,9 +63,18 @@ def strip_html(html: str) -> str:
 def mediawiki_query(params: Dict[str, str]) -> Dict:
     query = urllib.parse.urlencode(params)
     url = f"{API_URL}?{query}"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    retries = 3
+    last_exc = None
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except (TimeoutError, URLError, json.JSONDecodeError) as exc:
+            last_exc = exc
+            if attempt < retries:
+                time.sleep(1.2 * attempt)
+    raise RuntimeError(f"MediaWiki query failed after retries: {last_exc}")
 
 
 def fetch_title_text(title: str) -> str:
@@ -128,7 +138,7 @@ def fetch_subpages(root_title: str) -> List[str]:
     return sorted(set(subpages))
 
 
-def fetch_recursive_text(root_title: str) -> str:
+def fetch_recursive_text(root_title: str, max_subpages: int = 0) -> str:
     """
     Fetch root page and all child pages, then combine as one markdown text.
     """
@@ -138,12 +148,20 @@ def fetch_recursive_text(root_title: str) -> str:
         sections.append(root_text)
 
     subpages = fetch_subpages(root_title)
-    for sub in subpages:
-        sub_text = fetch_title_text(sub)
+    if max_subpages > 0:
+        subpages = subpages[:max_subpages]
+
+    for idx, sub in enumerate(subpages, start=1):
+        try:
+            sub_text = fetch_title_text(sub)
+        except Exception:
+            continue
         if not sub_text:
             continue
         sections.append(f"## {sub}\n\n{sub_text}")
-        time.sleep(0.2)
+        if idx % 20 == 0:
+            print(f"  - fetched {idx}/{len(subpages)} subpages for {root_title}")
+        time.sleep(0.15)
 
     return sanitize_text("\n\n".join(sections))
 
@@ -162,7 +180,7 @@ def save_markdown(path: str, title: str, content: str) -> None:
         f.write("\n")
 
 
-def run(selected_titles: List[str]) -> None:
+def run(selected_titles: List[str], max_subpages: int) -> None:
     selected = set(selected_titles)
     targets = [s for s in SOURCES if not selected or any(t in selected for t in s.titles)]
 
@@ -179,7 +197,7 @@ def run(selected_titles: List[str]) -> None:
             used_title = ""
             text = ""
             for title in source.titles:
-                text = fetch_recursive_text(title)
+                text = fetch_recursive_text(title, max_subpages=max_subpages)
                 if text:
                     used_title = title
                     break
@@ -216,9 +234,15 @@ def parse_args() -> argparse.Namespace:
         default=[],
         help="Only crawl specified titles, e.g. --only 列子 抱朴子",
     )
+    parser.add_argument(
+        "--max-subpages",
+        type=int,
+        default=0,
+        help="Limit fetched subpages per title (0 means no limit).",
+    )
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
-    run(args.only)
+    run(args.only, args.max_subpages)
