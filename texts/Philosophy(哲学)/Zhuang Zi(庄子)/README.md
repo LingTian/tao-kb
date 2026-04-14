@@ -1,11 +1,21 @@
-# 《庄子》 (Zhuangzi)
+# 庄子 (Zhuang Zi)
 
-《庄子》是道家学派的经典著作，由战国中期的庄周及其后学所著。全书分为内篇、外篇、杂篇三个部分。
+本目录包含了《庄子》的多种校本和版本，包含以下文献：
 
-## 目录结构
+1. **《庄子集释》（郭庆藩）**
+   - 包含完整的清代郭庆藩《庄子集释》（繁体本）
+   - `zhuangzi_guoqingfan.txt`: 完整合集版
+   - `zhuangzi_guoqingfan_chapters.tar.gz`: 分篇（33篇加序）压缩包
 
-*   **Inner Chapters (内篇)**: 庄子学说的核心，被普遍认为是庄子本人所作，包含《逍遥游》、《齐物论》、《大宗师》等7篇。
-*   **Outer Chapters (外篇)**: 庄子后学对内篇思想的阐发和补充，包含《秋水》、《至乐》等15篇。
-*   **Miscellaneous Chapters (杂篇)**: 杂糅了道家不同派别的文章，包含《天下》等11篇。
+2. **《庄子校诠》**
+   - `zhuangzi_jiaoquan.md`: 庄子文本校诠
 
-*Note: Raw texts will be placed in their respective directories in bilingual format (CN/EN).*
+3. **《道藏》南华真经图文对照白文数字化版**
+   - 位于 `DaoZang_Baiwen/` 目录
+   - 包含了《道藏》版本的《南华真经》（即庄子）白文及对照图片
+
+## 篇目结构
+
+* **内篇 (Inner Chapters)**：逍遥游、齐物论、养生主、人间世、德充符、大宗师、应帝王（共7篇）
+* **外篇 (Outer Chapters)**：骈拇、马蹄、胠箧、在宥、天地、天道、天运、刻意、缮性、秋水、至乐、达生、山木、田子方、知北游（共15篇）
+* **杂篇 (Miscellaneous Chapters)**：庚桑楚、徐无鬼、则阳、外物、寓言、让王、盗跖、说剑、渔父、列御寇、天下（共11篇）
