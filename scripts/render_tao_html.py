@@ -16,6 +16,7 @@ from typing import Dict, List, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS_DIR = ROOT / "chapters"
+RITUAL_DIR = ROOT / "texts" / "Ritual(科仪符箓)"
 OUT_HTML = ROOT / "docs" / "index.html"
 TAXONOMY_FILE = ROOT / "tag_taxonomy.json"
 
@@ -31,12 +32,24 @@ def iter_tagged_files() -> List[Path]:
     return sorted(files, key=lambda p: str(p).lower())
 
 
-def classify_book(rel_path: str) -> str:
+def iter_ritual_files() -> List[Path]:
+    if not RITUAL_DIR.exists():
+        return []
+    files = [p for p in RITUAL_DIR.rglob("*.md") if p.is_file()]
+    return sorted(files, key=lambda p: str(p).lower())
+
+
+def classify_text_category_and_work(rel_path: str) -> Tuple[str, str]:
     if rel_path.startswith("chapters/zhuangzi/"):
-        return "庄子"
+        return "Philosophy(哲学)", "Zhuang Zi(庄子)"
     if rel_path.startswith("chapters/daodejing_"):
-        return "道德经"
-    return "其他"
+        return "Philosophy(哲学)", "Dao De Jing(道德经)"
+    if rel_path.startswith("texts/Ritual(科仪符箓)/"):
+        parts = rel_path.split("/")
+        if len(parts) >= 4:
+            return "Ritual(科仪符箓)", parts[2]
+        return "Ritual(科仪符箓)", "Unknown"
+    return "Other(其他)", "Unknown"
 
 
 def sanitize_class_name(tag_type: str) -> str:
@@ -93,7 +106,8 @@ def build_payload() -> Tuple[List[Dict], Dict[str, int]]:
     chapters = []
     total_stats: Dict[str, int] = {}
 
-    for idx, path in enumerate(iter_tagged_files(), start=1):
+    idx = 1
+    for path in iter_tagged_files():
         rel = path.relative_to(ROOT).as_posix()
         text = path.read_text(encoding="utf-8")
         local_stats: Dict[str, int] = {}
@@ -106,12 +120,33 @@ def build_payload() -> Tuple[List[Dict], Dict[str, int]]:
             {
                 "id": idx,
                 "path": rel,
-                "book": classify_book(rel),
+                "textCategory": classify_text_category_and_work(rel)[0],
+                "work": classify_text_category_and_work(rel)[1],
                 "title": path.stem.replace(".tagged", ""),
                 "tagCounts": local_stats,
                 "html": "\n".join(html_lines),
             }
         )
+        idx += 1
+
+    # Include ritual corpus pages (plain markdown, no inline tags yet).
+    for path in iter_ritual_files():
+        rel = path.relative_to(ROOT).as_posix()
+        text = path.read_text(encoding="utf-8")
+        local_stats: Dict[str, int] = {}
+        html_lines = [render_line(line, local_stats) for line in text.splitlines()]
+        chapters.append(
+            {
+                "id": idx,
+                "path": rel,
+                "textCategory": classify_text_category_and_work(rel)[0],
+                "work": classify_text_category_and_work(rel)[1],
+                "title": path.stem,
+                "tagCounts": local_stats,
+                "html": "\n".join(html_lines),
+            }
+        )
+        idx += 1
     return chapters, total_stats
 
 
@@ -192,10 +227,13 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
     <aside class="sidebar">
       <div class="title">tao-kb 阅读器</div>
       <div class="sub">按标注类型高亮阅读</div>
-      <select id="bookFilter" class="select">
-        <option value="all">全部文本</option>
-        <option value="道德经">道德经</option>
-        <option value="庄子">庄子</option>
+      <select id="categoryFilter" class="select">
+        <option value="all">全部分类</option>
+        <option value="Philosophy(哲学)">Philosophy(哲学)</option>
+        <option value="Ritual(科仪符箓)">Ritual(科仪符箓)</option>
+      </select>
+      <select id="workFilter" class="select">
+        <option value="all">全部典籍</option>
       </select>
       <input id="searchInput" class="search" placeholder="搜索章节名或路径..." />
       <div id="chapterList" class="chapter-list"></div>
@@ -216,7 +254,8 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
       enabledTypes: new Set(DATA.tagTypes),
       highlight: true,
       keyword: "",
-      book: "all"
+      textCategory: "all",
+      work: "all"
     }};
 
     const chapterListEl = document.getElementById("chapterList");
@@ -224,13 +263,38 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
     const chipsEl = document.getElementById("tagChips");
     const chapterMetaEl = document.getElementById("chapterMeta");
     const searchInput = document.getElementById("searchInput");
-    const bookFilter = document.getElementById("bookFilter");
+    const categoryFilter = document.getElementById("categoryFilter");
+    const workFilter = document.getElementById("workFilter");
     const highlightSwitch = document.getElementById("highlightSwitch");
+
+    function listWorksByCategory() {{
+      const works = new Set();
+      DATA.chapters.forEach(c => {{
+        if (state.textCategory === "all" || c.textCategory === state.textCategory) {{
+          works.add(c.work);
+        }}
+      }});
+      return Array.from(works).sort();
+    }}
+
+    function renderWorkOptions() {{
+      const works = listWorksByCategory();
+      workFilter.innerHTML = [
+        '<option value="all">全部典籍</option>',
+        ...works.map(w => `<option value="${{w}}">${{w}}</option>`)
+      ].join("");
+      if (!works.includes(state.work)) {{
+        state.work = "all";
+      }}
+      workFilter.value = state.work;
+    }}
 
     function getFilteredChapters() {{
       return DATA.chapters.filter(c => {{
-        const byBook = state.book === "all" || c.book === state.book;
-        if (!byBook) return false;
+        const byCategory = state.textCategory === "all" || c.textCategory === state.textCategory;
+        if (!byCategory) return false;
+        const byWork = state.work === "all" || c.work === state.work;
+        if (!byWork) return false;
         if (!state.keyword) return true;
         const hay = (c.title + " " + c.path).toLowerCase();
         return hay.includes(state.keyword.toLowerCase());
@@ -245,7 +309,7 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
       chapterListEl.innerHTML = chapters.map(c => `
         <button class="chapter-item ${{c.id === state.currentId ? "active" : ""}}" data-id="${{c.id}}">
           <div>${{c.title}}</div>
-          <div class="book">${{c.book}}</div>
+          <div class="book">${{c.textCategory}} / ${{c.work}}</div>
           <div class="path">${{c.path}}</div>
         </button>
       `).join("");
@@ -316,7 +380,7 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
         return;
       }}
       readerEl.innerHTML = chapter.html;
-      chapterMetaEl.textContent = `${{chapter.book}} · ${{chapter.path}}`;
+      chapterMetaEl.textContent = `${{chapter.textCategory}} / ${{chapter.work}} · ${{chapter.path}}`;
 
       const tags = readerEl.querySelectorAll(".tag");
       tags.forEach(el => {{
@@ -328,6 +392,7 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
     }}
 
     function renderAll() {{
+      renderWorkOptions();
       renderChapterList();
       renderTagChips();
       renderReader();
@@ -337,8 +402,13 @@ def render_html(chapters: List[Dict], total_stats: Dict[str, int], taxonomy: Dic
       state.keyword = e.target.value.trim();
       renderAll();
     }});
-    bookFilter.addEventListener("change", e => {{
-      state.book = e.target.value;
+    categoryFilter.addEventListener("change", e => {{
+      state.textCategory = e.target.value;
+      state.work = "all";
+      renderAll();
+    }});
+    workFilter.addEventListener("change", e => {{
+      state.work = e.target.value;
       renderAll();
     }});
     highlightSwitch.addEventListener("change", e => {{
