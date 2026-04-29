@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "source": "Lie_Zi",
+    "total_nodes": 21,
+    "total_links": 35
+  },
+  "nodes": [
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 36
+    },
+    {
+      "id": "生物:大椿",
+      "type": "生物",
+      "name": "大椿",
+      "weight": 1
+    },
+    {
+      "id": "境界:天池",
+      "type": "境界",
+      "name": "天池",
+      "weight": 1
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 6
+    },
+    {
+      "id": "人物:孔子",
+      "type": "人物",
+      "name": "孔子",
+      "weight": 40
+    },
+    {
+      "id": "人物:仲尼",
+      "type": "人物",
+      "name": "仲尼",
+      "weight": 14
+    },
+    {
+      "id": "人物:老聃",
+      "type": "人物",
+      "name": "老聃",
+      "weight": 8
+    },
+    {
+      "id": "人物:列子",
+      "type": "人物",
+      "name": "列子",
+      "weight": 56
+    },
+    {
+      "id": "人物:伯昏瞀人",
+      "type": "人物",
+      "name": "伯昏瞀人",
+      "weight": 7
+    },
+    {
+      "id": "概念:物化",
+      "type": "概念",
+      "name": "物化",
+      "weight": 2
+    },
+    {
+      "id": "境界:真人",
+      "type": "境界",
+      "name": "真人",
+      "weight": 2
+    },
+    {
+      "id": "境界:至人",
+      "type": "境界",
+      "name": "至人",
+      "weight": 4
+    },
+    {
+      "id": "人物:季咸",
+      "type": "人物",
+      "name": "季咸",
+      "weight": 1
+    },
+    {
+      "id": "人物:老子",
+      "type": "人物",
+      "name": "老子",
+      "weight": 4
+    },
+    {
+      "id": "境界:朝三",
+      "type": "境界",
+      "name": "朝三",
+      "weight": 1
+    },
+    {
+      "id": "意象:玄牝",
+      "type": "意象",
+      "name": "玄牝",
+      "weight": 2
+    },
+    {
+      "id": "生物:彭祖",
+      "type": "生物",
+      "name": "彭祖",
+      "weight": 1
+    },
+    {
+      "id": "人物:文王",
+      "type": "人物",
+      "name": "文王",
+      "weight": 1
+    },
+    {
+      "id": "人物:武王",
+      "type": "人物",
+      "name": "武王",
+      "weight": 1
+    },
+    {
+      "id": "人物:周公",
+      "type": "人物",
+      "name": "周公",
+      "weight": 1
+    },
+    {
+      "id": "境界:有名",
+      "type": "境界",
+      "name": "有名",
+      "weight": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "主体:天地",
+      "target": "人物:孔子",
+      "weight": 6
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:孔子",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:伯昏瞀人",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:老聃",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:列子",
+      "weight": 3
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:伯昏瞀人",
+      "target": "人物:列子",
+      "weight": 3
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:老聃",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:列子",
+      "weight": 4
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:仲尼",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:伯昏瞀人",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:自然",
+      "weight": 3
+    }
+  ]
+}

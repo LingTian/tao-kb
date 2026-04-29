@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qwen-taoist-kb": {
+      "command": "python3",
+      "args": [".mcp/servers/qwen_mcp_minimal.py"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

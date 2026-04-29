@@ -1,0 +1,69 @@
+graph LR
+classDef person fill:#f9f,stroke:#333,stroke-width:2px;
+classDef place fill:#ccf,stroke:#333,stroke-width:2px;
+classDef bio fill:#cfc,stroke:#333,stroke-width:2px;
+classDef concept fill:#fcf,stroke:#333,stroke-width:2px;
+classDef state fill:#ffc,stroke:#333,stroke-width:2px;
+classDef subject fill:#cff,stroke:#333,stroke-width:2px;
+classDef metaphor fill:#fcc,stroke:#333,stroke-width:2px;
+  人物_列子(列子)
+  class 人物_列子 person;
+  人物_孔子(孔子)
+  class 人物_孔子 person;
+  主体_天地(天地)
+  class 主体_天地 subject;
+  人物_仲尼(仲尼)
+  class 人物_仲尼 person;
+  人物_老聃(老聃)
+  class 人物_老聃 person;
+  人物_伯昏瞀人(伯昏瞀人)
+  class 人物_伯昏瞀人 person;
+  概念_自然(自然)
+  class 概念_自然 concept;
+  境界_至人(至人)
+  class 境界_至人 state;
+  人物_老子(老子)
+  class 人物_老子 person;
+  概念_物化(物化)
+  class 概念_物化 concept;
+  境界_真人(真人)
+  class 境界_真人 state;
+  意象_玄牝(玄牝)
+  class 意象_玄牝 metaphor;
+  生物_大椿(大椿)
+  class 生物_大椿 bio;
+  境界_天池(天池)
+  class 境界_天池 state;
+  人物_季咸(季咸)
+  class 人物_季咸 person;
+  境界_朝三(朝三)
+  class 境界_朝三 state;
+  生物_彭祖(彭祖)
+  class 生物_彭祖 bio;
+  人物_文王(文王)
+  class 人物_文王 person;
+  人物_武王(武王)
+  class 人物_武王 person;
+  人物_周公(周公)
+  class 人物_周公 person;
+  境界_有名(有名)
+  class 境界_有名 state;
+  主体_天地 --- 人物_孔子
+  主体_天地 --- 概念_自然
+  人物_孔子 --- 概念_自然
+  人物_仲尼 --- 人物_孔子
+  人物_伯昏瞀人 --- 人物_孔子
+  人物_孔子 --- 人物_老聃
+  人物_列子 --- 人物_孔子
+  人物_仲尼 --- 人物_伯昏瞀人
+  人物_仲尼 --- 人物_老聃
+  人物_仲尼 --- 人物_列子
+  人物_伯昏瞀人 --- 人物_列子
+  人物_列子 --- 人物_老聃
+  主体_天地 --- 人物_老聃
+  主体_天地 --- 人物_列子
+  主体_天地 --- 人物_仲尼
+  人物_老聃 --- 境界_至人
+  主体_天地 --- 境界_至人
+  境界_至人 --- 概念_自然
+  人物_老聃 --- 概念_自然

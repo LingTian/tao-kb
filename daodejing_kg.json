@@ -1,0 +1,813 @@
+{
+  "metadata": {
+    "source": "Dao_De_Jing",
+    "total_chapters": 81,
+    "total_nodes": 71,
+    "total_links": 75
+  },
+  "nodes": [
+    {
+      "id": "概念:道",
+      "type": "概念",
+      "name": "道",
+      "weight": 64
+    },
+    {
+      "id": "概念:名",
+      "type": "概念",
+      "name": "名",
+      "weight": 4
+    },
+    {
+      "id": "境界:无名",
+      "type": "境界",
+      "name": "无名",
+      "weight": 2
+    },
+    {
+      "id": "境界:有名",
+      "type": "境界",
+      "name": "有名",
+      "weight": 2
+    },
+    {
+      "id": "境界:无欲",
+      "type": "境界",
+      "name": "无欲",
+      "weight": 1
+    },
+    {
+      "id": "境界:妙",
+      "type": "境界",
+      "name": "妙",
+      "weight": 2
+    },
+    {
+      "id": "境界:有欲",
+      "type": "境界",
+      "name": "有欲",
+      "weight": 1
+    },
+    {
+      "id": "境界:徼",
+      "type": "境界",
+      "name": "徼",
+      "weight": 1
+    },
+    {
+      "id": "境界:玄",
+      "type": "境界",
+      "name": "玄",
+      "weight": 3
+    },
+    {
+      "id": "对立:美|恶",
+      "type": "对立",
+      "name": "美|恶",
+      "weight": 3
+    },
+    {
+      "id": "对立:善|不善",
+      "type": "对立",
+      "name": "善|不善",
+      "weight": 3
+    },
+    {
+      "id": "对立:有|无",
+      "type": "对立",
+      "name": "有|无",
+      "weight": 9
+    },
+    {
+      "id": "对立:难|易",
+      "type": "对立",
+      "name": "难|易",
+      "weight": 1
+    },
+    {
+      "id": "对立:长|短",
+      "type": "对立",
+      "name": "长|短",
+      "weight": 1
+    },
+    {
+      "id": "对立:高|下",
+      "type": "对立",
+      "name": "高|下",
+      "weight": 1
+    },
+    {
+      "id": "对立:音|声",
+      "type": "对立",
+      "name": "音|声",
+      "weight": 1
+    },
+    {
+      "id": "对立:前|后",
+      "type": "对立",
+      "name": "前|后",
+      "weight": 1
+    },
+    {
+      "id": "主体:圣人",
+      "type": "主体",
+      "name": "圣人",
+      "weight": 30
+    },
+    {
+      "id": "概念:无为",
+      "type": "概念",
+      "name": "无为",
+      "weight": 13
+    },
+    {
+      "id": "境界:不言",
+      "type": "境界",
+      "name": "不言",
+      "weight": 1
+    },
+    {
+      "id": "主体:万物",
+      "type": "主体",
+      "name": "万物",
+      "weight": 7
+    },
+    {
+      "id": "境界:无知无欲",
+      "type": "境界",
+      "name": "无知无欲",
+      "weight": 1
+    },
+    {
+      "id": "意象:尘",
+      "type": "意象",
+      "name": "尘",
+      "weight": 1
+    },
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 8
+    },
+    {
+      "id": "意象:刍狗",
+      "type": "意象",
+      "name": "刍狗",
+      "weight": 2
+    },
+    {
+      "id": "意象:橐龠",
+      "type": "意象",
+      "name": "橐龠",
+      "weight": 1
+    },
+    {
+      "id": "概念:中",
+      "type": "概念",
+      "name": "中",
+      "weight": 1
+    },
+    {
+      "id": "主体:谷神",
+      "type": "主体",
+      "name": "谷神",
+      "weight": 1
+    },
+    {
+      "id": "意象:玄牝",
+      "type": "意象",
+      "name": "玄牝",
+      "weight": 2
+    },
+    {
+      "id": "主体:天",
+      "type": "主体",
+      "name": "天",
+      "weight": 6
+    },
+    {
+      "id": "主体:地",
+      "type": "主体",
+      "name": "地",
+      "weight": 5
+    },
+    {
+      "id": "意象:水",
+      "type": "意象",
+      "name": "水",
+      "weight": 3
+    },
+    {
+      "id": "意象:金玉",
+      "type": "意象",
+      "name": "金玉",
+      "weight": 1
+    },
+    {
+      "id": "意象:婴儿",
+      "type": "意象",
+      "name": "婴儿",
+      "weight": 3
+    },
+    {
+      "id": "境界:玄览",
+      "type": "境界",
+      "name": "玄览",
+      "weight": 1
+    },
+    {
+      "id": "对立:雌|雄",
+      "type": "对立",
+      "name": "雌|雄",
+      "weight": 1
+    },
+    {
+      "id": "概念:玄德",
+      "type": "概念",
+      "name": "玄德",
+      "weight": 3
+    },
+    {
+      "id": "意象:毂",
+      "type": "意象",
+      "name": "毂",
+      "weight": 1
+    },
+    {
+      "id": "意象:器",
+      "type": "意象",
+      "name": "器",
+      "weight": 6
+    },
+    {
+      "id": "概念:无物",
+      "type": "概念",
+      "name": "无物",
+      "weight": 2
+    },
+    {
+      "id": "境界:惚恍",
+      "type": "境界",
+      "name": "惚恍",
+      "weight": 1
+    },
+    {
+      "id": "概念:道纪",
+      "type": "概念",
+      "name": "道纪",
+      "weight": 1
+    },
+    {
+      "id": "意象:朴",
+      "type": "意象",
+      "name": "朴",
+      "weight": 6
+    },
+    {
+      "id": "意象:谷",
+      "type": "意象",
+      "name": "谷",
+      "weight": 3
+    },
+    {
+      "id": "境界:虚",
+      "type": "境界",
+      "name": "虚",
+      "weight": 1
+    },
+    {
+      "id": "境界:静",
+      "type": "境界",
+      "name": "静",
+      "weight": 2
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 5
+    },
+    {
+      "id": "意象:母",
+      "type": "意象",
+      "name": "母",
+      "weight": 1
+    },
+    {
+      "id": "概念:德",
+      "type": "概念",
+      "name": "德",
+      "weight": 36
+    },
+    {
+      "id": "境界:恍惚",
+      "type": "境界",
+      "name": "恍惚",
+      "weight": 3
+    },
+    {
+      "id": "对立:曲|全",
+      "type": "对立",
+      "name": "曲|全",
+      "weight": 1
+    },
+    {
+      "id": "对立:枉|直",
+      "type": "对立",
+      "name": "枉|直",
+      "weight": 1
+    },
+    {
+      "id": "对立:洼|盈",
+      "type": "对立",
+      "name": "洼|盈",
+      "weight": 1
+    },
+    {
+      "id": "对立:敝|新",
+      "type": "对立",
+      "name": "敝|新",
+      "weight": 1
+    },
+    {
+      "id": "对立:少|得",
+      "type": "对立",
+      "name": "少|得",
+      "weight": 1
+    },
+    {
+      "id": "对立:多|惑",
+      "type": "对立",
+      "name": "多|惑",
+      "weight": 1
+    },
+    {
+      "id": "对立:重|轻",
+      "type": "对立",
+      "name": "重|轻",
+      "weight": 1
+    },
+    {
+      "id": "对立:静|躁",
+      "type": "对立",
+      "name": "静|躁",
+      "weight": 1
+    },
+    {
+      "id": "对立:雄|雌",
+      "type": "对立",
+      "name": "雄|雌",
+      "weight": 2
+    },
+    {
+      "id": "意象:溪",
+      "type": "意象",
+      "name": "溪",
+      "weight": 2
+    },
+    {
+      "id": "对立:白|黑",
+      "type": "对立",
+      "name": "白|黑",
+      "weight": 2
+    },
+    {
+      "id": "对立:荣|辱",
+      "type": "对立",
+      "name": "荣|辱",
+      "weight": 2
+    },
+    {
+      "id": "意象:神器",
+      "type": "意象",
+      "name": "神器",
+      "weight": 1
+    },
+    {
+      "id": "主体:君子",
+      "type": "主体",
+      "name": "君子",
+      "weight": 1
+    },
+    {
+      "id": "主体:侯王",
+      "type": "主体",
+      "name": "侯王",
+      "weight": 3
+    },
+    {
+      "id": "对立:柔弱|刚强",
+      "type": "对立",
+      "name": "柔弱|刚强",
+      "weight": 1
+    },
+    {
+      "id": "意象:赤子",
+      "type": "意象",
+      "name": "赤子",
+      "weight": 1
+    },
+    {
+      "id": "境界:玄同",
+      "type": "境界",
+      "name": "玄同",
+      "weight": 1
+    },
+    {
+      "id": "意象:小鲜",
+      "type": "意象",
+      "name": "小鲜",
+      "weight": 1
+    },
+    {
+      "id": "意象:牝",
+      "type": "意象",
+      "name": "牝",
+      "weight": 2
+    },
+    {
+      "id": "主体:小国寡民",
+      "type": "主体",
+      "name": "小国寡民",
+      "weight": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "境界:无名",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "境界:无名",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:无为",
+      "weight": 4
+    },
+    {
+      "source": "概念:无为",
+      "target": "概念:道",
+      "weight": 4
+    },
+    {
+      "source": "主体:地",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "意象:水",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "概念:无为",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:道",
+      "weight": 5
+    },
+    {
+      "source": "主体:圣人",
+      "target": "主体:地",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "主体:圣人",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "对立:有|无",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "主体:天",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:水",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:婴儿",
+      "weight": 3
+    },
+    {
+      "source": "主体:地",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "对立:有|无",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "主体:天",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "意象:水",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄德",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "主体:地",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "主体:天",
+      "weight": 2
+    },
+    {
+      "source": "主体:地",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "意象:水",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "主体:天",
+      "target": "对立:有|无",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:婴儿",
+      "weight": 3
+    },
+    {
+      "source": "主体:天",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "意象:水",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "意象:朴",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "意象:朴",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "意象:朴",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "意象:朴",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "对立:有|无",
+      "target": "意象:器",
+      "weight": 2
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:谷",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "主体:圣人",
+      "target": "意象:器",
+      "weight": 2
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "概念:自然",
+      "target": "概念:道",
+      "weight": 4
+    },
+    {
+      "source": "意象:器",
+      "target": "概念:道",
+      "weight": 2
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "意象:器",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "意象:谷",
+      "weight": 2
+    },
+    {
+      "source": "主体:万物",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:婴儿",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "意象:器",
+      "target": "意象:婴儿",
+      "weight": 2
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:无为",
+      "weight": 2
+    },
+    {
+      "source": "意象:谷",
+      "target": "概念:德",
+      "weight": 2
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:无为",
+      "weight": 3
+    },
+    {
+      "source": "概念:无为",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "主体:圣人",
+      "target": "概念:德",
+      "weight": 3
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:道",
+      "weight": 3
+    },
+    {
+      "source": "概念:德",
+      "target": "概念:自然",
+      "weight": 3
+    }
+  ]
+}

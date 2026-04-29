@@ -1,0 +1,562 @@
+{
+  "metadata": {
+    "source": "Qing_Jing_Jing",
+    "total_nodes": 92,
+    "total_links": 0
+  },
+  "nodes": [
+    {
+      "id": "主体:老君",
+      "type": "主体",
+      "name": "老君",
+      "weight": 1
+    },
+    {
+      "id": "概念:大道",
+      "type": "概念",
+      "name": "大道",
+      "weight": 2
+    },
+    {
+      "id": "概念:形",
+      "type": "概念",
+      "name": "形",
+      "weight": 1
+    },
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 1
+    },
+    {
+      "id": "概念:情",
+      "type": "概念",
+      "name": "情",
+      "weight": 1
+    },
+    {
+      "id": "主体:万物",
+      "type": "主体",
+      "name": "万物",
+      "weight": 1
+    },
+    {
+      "id": "境界:不知",
+      "type": "境界",
+      "name": "不知",
+      "weight": 1
+    },
+    {
+      "id": "概念:名",
+      "type": "概念",
+      "name": "名",
+      "weight": 1
+    },
+    {
+      "id": "概念:道",
+      "type": "概念",
+      "name": "道",
+      "weight": 2
+    },
+    {
+      "id": "主体:人",
+      "type": "主体",
+      "name": "人",
+      "weight": 7
+    },
+    {
+      "id": "境界:能遣",
+      "type": "境界",
+      "name": "能遣",
+      "weight": 1
+    },
+    {
+      "id": "概念:欲",
+      "type": "概念",
+      "name": "欲",
+      "weight": 3
+    },
+    {
+      "id": "主体:心",
+      "type": "主体",
+      "name": "心",
+      "weight": 4
+    },
+    {
+      "id": "境界:静",
+      "type": "境界",
+      "name": "静",
+      "weight": 4
+    },
+    {
+      "id": "境界:能澄",
+      "type": "境界",
+      "name": "能澄",
+      "weight": 1
+    },
+    {
+      "id": "概念:心",
+      "type": "概念",
+      "name": "心",
+      "weight": 2
+    },
+    {
+      "id": "概念:神",
+      "type": "概念",
+      "name": "神",
+      "weight": 3
+    },
+    {
+      "id": "境界:清",
+      "type": "境界",
+      "name": "清",
+      "weight": 3
+    },
+    {
+      "id": "概念:六欲",
+      "type": "概念",
+      "name": "六欲",
+      "weight": 2
+    },
+    {
+      "id": "概念:三毒",
+      "type": "概念",
+      "name": "三毒",
+      "weight": 2
+    },
+    {
+      "id": "概念:之",
+      "type": "概念",
+      "name": "之",
+      "weight": 1
+    },
+    {
+      "id": "概念:能",
+      "type": "概念",
+      "name": "能",
+      "weight": 1
+    },
+    {
+      "id": "境界:遣",
+      "type": "境界",
+      "name": "遣",
+      "weight": 1
+    },
+    {
+      "id": "境界:能",
+      "type": "境界",
+      "name": "能",
+      "weight": 1
+    },
+    {
+      "id": "境界:澄",
+      "type": "境界",
+      "name": "澄",
+      "weight": 1
+    },
+    {
+      "id": "境界:不生",
+      "type": "境界",
+      "name": "不生",
+      "weight": 1
+    },
+    {
+      "id": "境界:自灭",
+      "type": "境界",
+      "name": "自灭",
+      "weight": 1
+    },
+    {
+      "id": "concept:能",
+      "type": "concept",
+      "name": "能",
+      "weight": 8
+    },
+    {
+      "id": "境界:常清静",
+      "type": "境界",
+      "name": "常清静",
+      "weight": 1
+    },
+    {
+      "id": "概念:天地",
+      "type": "概念",
+      "name": "天地",
+      "weight": 1
+    },
+    {
+      "id": "境界:悉皆",
+      "type": "境界",
+      "name": "悉皆",
+      "weight": 1
+    },
+    {
+      "id": "concept:之",
+      "type": "concept",
+      "name": "之",
+      "weight": 5
+    },
+    {
+      "id": "主体:圣",
+      "type": "主体",
+      "name": "圣",
+      "weight": 1
+    },
+    {
+      "id": "境界:清静",
+      "type": "境界",
+      "name": "清静",
+      "weight": 1
+    },
+    {
+      "id": "主体:天下",
+      "type": "主体",
+      "name": "天下",
+      "weight": 1
+    },
+    {
+      "id": "concept:正",
+      "type": "concept",
+      "name": "正",
+      "weight": 1
+    },
+    {
+      "id": "concept:清",
+      "type": "concept",
+      "name": "清",
+      "weight": 1
+    },
+    {
+      "id": "concept:浊",
+      "type": "concept",
+      "name": "浊",
+      "weight": 1
+    },
+    {
+      "id": "concept:动",
+      "type": "concept",
+      "name": "动",
+      "weight": 3
+    },
+    {
+      "id": "concept:静",
+      "type": "concept",
+      "name": "静",
+      "weight": 3
+    },
+    {
+      "id": "concept:基",
+      "type": "concept",
+      "name": "基",
+      "weight": 1
+    },
+    {
+      "id": "concept:本",
+      "type": "concept",
+      "name": "本",
+      "weight": 2
+    },
+    {
+      "id": "subject:人",
+      "type": "subject",
+      "name": "人",
+      "weight": 7
+    },
+    {
+      "id": "state:常清静",
+      "type": "state",
+      "name": "常清静",
+      "weight": 5
+    },
+    {
+      "id": "concept:天地",
+      "type": "concept",
+      "name": "天地",
+      "weight": 1
+    },
+    {
+      "id": "state:悉皆",
+      "type": "state",
+      "name": "悉皆",
+      "weight": 4
+    },
+    {
+      "id": "concept:万物",
+      "type": "concept",
+      "name": "万物",
+      "weight": 1
+    },
+    {
+      "id": "concept:鬼神",
+      "type": "concept",
+      "name": "鬼神",
+      "weight": 2
+    },
+    {
+      "id": "concept:生死",
+      "type": "concept",
+      "name": "生死",
+      "weight": 2
+    },
+    {
+      "id": "concept:清静",
+      "type": "concept",
+      "name": "清静",
+      "weight": 2
+    },
+    {
+      "id": "concept:无为",
+      "type": "concept",
+      "name": "无为",
+      "weight": 4
+    },
+    {
+      "id": "concept:自然",
+      "type": "concept",
+      "name": "自然",
+      "weight": 4
+    },
+    {
+      "id": "concept:用",
+      "type": "concept",
+      "name": "用",
+      "weight": 3
+    },
+    {
+      "id": "concept:大道",
+      "type": "concept",
+      "name": "大道",
+      "weight": 2
+    },
+    {
+      "id": "concept:体",
+      "type": "concept",
+      "name": "体",
+      "weight": 3
+    },
+    {
+      "id": "subject:万物",
+      "type": "subject",
+      "name": "万物",
+      "weight": 1
+    },
+    {
+      "id": "concept:宗",
+      "type": "concept",
+      "name": "宗",
+      "weight": 1
+    },
+    {
+      "id": "state:悟",
+      "type": "state",
+      "name": "悟",
+      "weight": 1
+    },
+    {
+      "id": "concept:道",
+      "type": "concept",
+      "name": "道",
+      "weight": 6
+    },
+    {
+      "id": "state:名",
+      "type": "state",
+      "name": "名",
+      "weight": 2
+    },
+    {
+      "id": "state:得道",
+      "type": "state",
+      "name": "得道",
+      "weight": 2
+    },
+    {
+      "id": "state:不能",
+      "type": "state",
+      "name": "不能",
+      "weight": 2
+    },
+    {
+      "id": "concept:累",
+      "type": "concept",
+      "name": "累",
+      "weight": 1
+    },
+    {
+      "id": "concept:侵",
+      "type": "concept",
+      "name": "侵",
+      "weight": 1
+    },
+    {
+      "id": "concept:合道",
+      "type": "concept",
+      "name": "合道",
+      "weight": 1
+    },
+    {
+      "id": "concept:虚",
+      "type": "concept",
+      "name": "虚",
+      "weight": 2
+    },
+    {
+      "id": "concept:无",
+      "type": "concept",
+      "name": "无",
+      "weight": 3
+    },
+    {
+      "id": "concept:冲",
+      "type": "concept",
+      "name": "冲",
+      "weight": 2
+    },
+    {
+      "id": "concept:舍",
+      "type": "concept",
+      "name": "舍",
+      "weight": 1
+    },
+    {
+      "id": "concept:和",
+      "type": "concept",
+      "name": "和",
+      "weight": 1
+    },
+    {
+      "id": "state:守",
+      "type": "state",
+      "name": "守",
+      "weight": 1
+    },
+    {
+      "id": "concept:四者",
+      "type": "concept",
+      "name": "四者",
+      "weight": 1
+    },
+    {
+      "id": "state:真人",
+      "type": "state",
+      "name": "真人",
+      "weight": 2
+    },
+    {
+      "id": "concept:与",
+      "type": "concept",
+      "name": "与",
+      "weight": 2
+    },
+    {
+      "id": "subject:道",
+      "type": "subject",
+      "name": "道",
+      "weight": 1
+    },
+    {
+      "id": "concept:同",
+      "type": "concept",
+      "name": "同",
+      "weight": 2
+    },
+    {
+      "id": "subject:天地",
+      "type": "subject",
+      "name": "天地",
+      "weight": 1
+    },
+    {
+      "id": "concept:根",
+      "type": "concept",
+      "name": "根",
+      "weight": 1
+    },
+    {
+      "id": "concept:生",
+      "type": "concept",
+      "name": "生",
+      "weight": 1
+    },
+    {
+      "id": "concept:不",
+      "type": "concept",
+      "name": "不",
+      "weight": 4
+    },
+    {
+      "id": "state:喜",
+      "type": "state",
+      "name": "喜",
+      "weight": 1
+    },
+    {
+      "id": "concept:死",
+      "type": "concept",
+      "name": "死",
+      "weight": 1
+    },
+    {
+      "id": "state:忧",
+      "type": "state",
+      "name": "忧",
+      "weight": 1
+    },
+    {
+      "id": "concept:来",
+      "type": "concept",
+      "name": "来",
+      "weight": 1
+    },
+    {
+      "id": "state:迎",
+      "type": "state",
+      "name": "迎",
+      "weight": 1
+    },
+    {
+      "id": "concept:去",
+      "type": "concept",
+      "name": "去",
+      "weight": 1
+    },
+    {
+      "id": "state:送",
+      "type": "state",
+      "name": "送",
+      "weight": 1
+    },
+    {
+      "id": "concept:而",
+      "type": "concept",
+      "name": "而",
+      "weight": 2
+    },
+    {
+      "id": "state:然",
+      "type": "state",
+      "name": "然",
+      "weight": 1
+    },
+    {
+      "id": "state:成",
+      "type": "state",
+      "name": "成",
+      "weight": 1
+    },
+    {
+      "id": "concept:是",
+      "type": "concept",
+      "name": "是",
+      "weight": 1
+    },
+    {
+      "id": "concept:谓",
+      "type": "concept",
+      "name": "谓",
+      "weight": 1
+    }
+  ],
+  "links": []
+}
