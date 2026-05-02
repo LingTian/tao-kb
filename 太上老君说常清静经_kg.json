@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "classic": "太上老君说常清静经",
+    "total_chapters": 1,
+    "total_tags": 16,
+    "unique_entities": 10
+  },
+  "nodes": [
+    {
+      "id": "概念:大道",
+      "type": "概念",
+      "name": "大道",
+      "weight": 3
+    },
+    {
+      "id": "境界:得道",
+      "type": "境界",
+      "name": "得道",
+      "weight": 3
+    },
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 2
+    },
+    {
+      "id": "境界:真人",
+      "type": "境界",
+      "name": "真人",
+      "weight": 2
+    },
+    {
+      "id": "概念:不知",
+      "type": "概念",
+      "name": "不知",
+      "weight": 1
+    },
+    {
+      "id": "境界:悉皆",
+      "type": "境界",
+      "name": "悉皆",
+      "weight": 1
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 1
+    },
+    {
+      "id": "概念:三毒",
+      "type": "概念",
+      "name": "三毒",
+      "weight": 1
+    },
+    {
+      "id": "境界:不能",
+      "type": "境界",
+      "name": "不能",
+      "weight": 1
+    },
+    {
+      "id": "概念:生死",
+      "type": "概念",
+      "name": "生死",
+      "weight": 1
+    }
+  ],
+  "links": []
+}

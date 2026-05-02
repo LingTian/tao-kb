@@ -1,0 +1,3798 @@
+{
+  "metadata": {
+    "classic": "抱朴子",
+    "total_chapters": 21,
+    "total_tags": 2376,
+    "unique_entities": 41
+  },
+  "nodes": [
+    {
+      "id": "境界:不能",
+      "type": "境界",
+      "name": "不能",
+      "weight": 1014
+    },
+    {
+      "id": "概念:不知",
+      "type": "概念",
+      "name": "不知",
+      "weight": 270
+    },
+    {
+      "id": "主体:天下",
+      "type": "主体",
+      "name": "天下",
+      "weight": 166
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 136
+    },
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 132
+    },
+    {
+      "id": "人物:仲尼",
+      "type": "人物",
+      "name": "仲尼",
+      "weight": 116
+    },
+    {
+      "id": "主体:鬼神",
+      "type": "主体",
+      "name": "鬼神",
+      "weight": 74
+    },
+    {
+      "id": "人物:老子",
+      "type": "人物",
+      "name": "老子",
+      "weight": 66
+    },
+    {
+      "id": "境界:得道",
+      "type": "境界",
+      "name": "得道",
+      "weight": 52
+    },
+    {
+      "id": "人物:儒者",
+      "type": "人物",
+      "name": "儒者",
+      "weight": 52
+    },
+    {
+      "id": "生物:彭祖",
+      "type": "生物",
+      "name": "彭祖",
+      "weight": 38
+    },
+    {
+      "id": "境界:真人",
+      "type": "境界",
+      "name": "真人",
+      "weight": 34
+    },
+    {
+      "id": "人物:周公",
+      "type": "人物",
+      "name": "周公",
+      "weight": 32
+    },
+    {
+      "id": "概念:四方",
+      "type": "概念",
+      "name": "四方",
+      "weight": 26
+    },
+    {
+      "id": "境界:至人",
+      "type": "境界",
+      "name": "至人",
+      "weight": 18
+    },
+    {
+      "id": "生物:朝菌",
+      "type": "生物",
+      "name": "朝菌",
+      "weight": 18
+    },
+    {
+      "id": "人物:孔子",
+      "type": "人物",
+      "name": "孔子",
+      "weight": 16
+    },
+    {
+      "id": "概念:五行",
+      "type": "概念",
+      "name": "五行",
+      "weight": 14
+    },
+    {
+      "id": "境界:有名",
+      "type": "境界",
+      "name": "有名",
+      "weight": 10
+    },
+    {
+      "id": "概念:大道",
+      "type": "概念",
+      "name": "大道",
+      "weight": 10
+    },
+    {
+      "id": "人物:文王",
+      "type": "人物",
+      "name": "文王",
+      "weight": 8
+    },
+    {
+      "id": "概念:物化",
+      "type": "概念",
+      "name": "物化",
+      "weight": 6
+    },
+    {
+      "id": "生物:大椿",
+      "type": "生物",
+      "name": "大椿",
+      "weight": 6
+    },
+    {
+      "id": "概念:有待",
+      "type": "概念",
+      "name": "有待",
+      "weight": 6
+    },
+    {
+      "id": "人物:墨者",
+      "type": "人物",
+      "name": "墨者",
+      "weight": 6
+    },
+    {
+      "id": "人物:匠石",
+      "type": "人物",
+      "name": "匠石",
+      "weight": 6
+    },
+    {
+      "id": "人物:列子",
+      "type": "人物",
+      "name": "列子",
+      "weight": 6
+    },
+    {
+      "id": "概念:生死",
+      "type": "概念",
+      "name": "生死",
+      "weight": 4
+    },
+    {
+      "id": "人物:武王",
+      "type": "人物",
+      "name": "武王",
+      "weight": 4
+    },
+    {
+      "id": "概念:不善",
+      "type": "概念",
+      "name": "不善",
+      "weight": 4
+    },
+    {
+      "id": "人物:惠子",
+      "type": "人物",
+      "name": "惠子",
+      "weight": 4
+    },
+    {
+      "id": "概念:五事",
+      "type": "概念",
+      "name": "五事",
+      "weight": 4
+    },
+    {
+      "id": "境界:恍惚",
+      "type": "境界",
+      "name": "恍惚",
+      "weight": 2
+    },
+    {
+      "id": "生物:蟪蛄",
+      "type": "生物",
+      "name": "蟪蛄",
+      "weight": 2
+    },
+    {
+      "id": "概念:玄德",
+      "type": "概念",
+      "name": "玄德",
+      "weight": 2
+    },
+    {
+      "id": "人物:老聃",
+      "type": "人物",
+      "name": "老聃",
+      "weight": 2
+    },
+    {
+      "id": "概念:三才",
+      "type": "概念",
+      "name": "三才",
+      "weight": 2
+    },
+    {
+      "id": "人物:被衣",
+      "type": "人物",
+      "name": "被衣",
+      "weight": 2
+    },
+    {
+      "id": "人物:惠施",
+      "type": "人物",
+      "name": "惠施",
+      "weight": 2
+    },
+    {
+      "id": "境界:天池",
+      "type": "境界",
+      "name": "天池",
+      "weight": 2
+    },
+    {
+      "id": "主体:侯王",
+      "type": "主体",
+      "name": "侯王",
+      "weight": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "境界:不能",
+      "target": "概念:不知",
+      "weight": 21
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:自然",
+      "weight": 19
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:自然",
+      "weight": 19
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:不知",
+      "weight": 18
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:不能",
+      "weight": 18
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:自然",
+      "weight": 16
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:不知",
+      "weight": 16
+    },
+    {
+      "source": "主体:天下",
+      "target": "境界:不能",
+      "weight": 16
+    },
+    {
+      "source": "主体:天下",
+      "target": "主体:天地",
+      "weight": 15
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:不知",
+      "weight": 14
+    },
+    {
+      "source": "境界:不能",
+      "target": "境界:得道",
+      "weight": 14
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:自然",
+      "weight": 14
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:不知",
+      "weight": 14
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:不能",
+      "weight": 14
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:自然",
+      "weight": 14
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:自然",
+      "weight": 13
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:得道",
+      "weight": 12
+    },
+    {
+      "source": "主体:天下",
+      "target": "境界:得道",
+      "weight": 12
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老子",
+      "weight": 12
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:老子",
+      "weight": 12
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:得道",
+      "weight": 11
+    },
+    {
+      "source": "主体:天地",
+      "target": "主体:鬼神",
+      "weight": 11
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:不知",
+      "weight": 11
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "境界:不能",
+      "weight": 11
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:不知",
+      "weight": 10
+    },
+    {
+      "source": "境界:不能",
+      "target": "境界:真人",
+      "weight": 10
+    },
+    {
+      "source": "主体:天下",
+      "target": "主体:鬼神",
+      "weight": 10
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:自然",
+      "weight": 10
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:真人",
+      "weight": 9
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:自然",
+      "weight": 9
+    },
+    {
+      "source": "概念:不知",
+      "target": "生物:彭祖",
+      "weight": 9
+    },
+    {
+      "source": "境界:不能",
+      "target": "生物:彭祖",
+      "weight": 9
+    },
+    {
+      "source": "境界:得道",
+      "target": "境界:真人",
+      "weight": 8
+    },
+    {
+      "source": "境界:得道",
+      "target": "生物:彭祖",
+      "weight": 8
+    },
+    {
+      "source": "主体:天下",
+      "target": "境界:真人",
+      "weight": 8
+    },
+    {
+      "source": "主体:天地",
+      "target": "生物:彭祖",
+      "weight": 8
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:彭祖",
+      "weight": 8
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:得道",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:不知",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:不能",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "境界:得道",
+      "weight": 7
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:真人",
+      "weight": 7
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "境界:真人",
+      "weight": 7
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:彭祖",
+      "weight": 7
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:老子",
+      "weight": 7
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:彭祖",
+      "weight": 7
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:四方",
+      "weight": 7
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:四方",
+      "weight": 7
+    },
+    {
+      "source": "主体:天下",
+      "target": "生物:彭祖",
+      "weight": 7
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:老子",
+      "weight": 6
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:仲尼",
+      "weight": 6
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:仲尼",
+      "weight": 6
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:四方",
+      "weight": 6
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:四方",
+      "weight": 6
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:不知",
+      "weight": 6
+    },
+    {
+      "source": "境界:不能",
+      "target": "境界:至人",
+      "weight": 6
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:自然",
+      "weight": 6
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:四方",
+      "weight": 6
+    },
+    {
+      "source": "概念:四方",
+      "target": "概念:自然",
+      "weight": 6
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:儒者",
+      "weight": 5
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:四方",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:得道",
+      "weight": 5
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:五行",
+      "weight": 5
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:五行",
+      "weight": 5
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:五行",
+      "weight": 5
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:不知",
+      "weight": 5
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:四方",
+      "weight": 5
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "生物:彭祖",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:不能",
+      "weight": 5
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:真人",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:仲尼",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:彭祖",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:真人",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:不知",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:不能",
+      "weight": 4
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "境界:得道",
+      "target": "境界:有名",
+      "weight": 4
+    },
+    {
+      "source": "境界:得道",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "境界:得道",
+      "target": "境界:至人",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:有名",
+      "weight": 4
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:不知",
+      "weight": 4
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:四方",
+      "weight": 4
+    },
+    {
+      "source": "主体:天下",
+      "target": "境界:有名",
+      "weight": 4
+    },
+    {
+      "source": "境界:不能",
+      "target": "境界:有名",
+      "weight": 4
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "境界:真人",
+      "target": "境界:至人",
+      "weight": 4
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:真人",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:五行",
+      "weight": 4
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:老子",
+      "weight": 4
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:周公",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:不知",
+      "weight": 4
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:周公",
+      "weight": 4
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:不能",
+      "weight": 4
+    },
+    {
+      "source": "概念:五行",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "主体:天地",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:儒者",
+      "weight": 4
+    },
+    {
+      "source": "概念:不知",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "主体:天下",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "境界:不能",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:朝菌",
+      "weight": 4
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:儒者",
+      "weight": 4
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "境界:得道",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "概念:不知",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "境界:不能",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:大椿",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:周公",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:得道",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:墨者",
+      "weight": 3
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:得道",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:老子",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:不知",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:武王",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:不能",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:得道",
+      "weight": 3
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:五行",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:得道",
+      "weight": 3
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "境界:有名",
+      "target": "境界:真人",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:有名",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "境界:有名",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:真人",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:四方",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:生死",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:老子",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老子",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:四方",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:周公",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:周公",
+      "weight": 3
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "概念:五行",
+      "target": "概念:四方",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:五行",
+      "weight": 3
+    },
+    {
+      "source": "概念:五行",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:不知",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:孔子",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:不能",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:生死",
+      "weight": 3
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:生死",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "生物:彭祖",
+      "target": "生物:朝菌",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "概念:四方",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:儒者",
+      "weight": 3
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:生死",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:生死",
+      "weight": 3
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:大道",
+      "weight": 3
+    },
+    {
+      "source": "概念:大道",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:生死",
+      "weight": 3
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "概念:生死",
+      "target": "生物:彭祖",
+      "weight": 3
+    },
+    {
+      "source": "概念:三才",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄德",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:四方",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:大道",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:大椿",
+      "weight": 2
+    },
+    {
+      "source": "生物:大椿",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:三才",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:三才",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:周公",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:匠石",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:匠石",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:仲尼",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "人物:仲尼",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:周公",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "主体:天地",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "主体:鬼神",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "主体:天下",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:儒者",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "主体:侯王",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "境界:恍惚",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "境界:恍惚",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "境界:恍惚",
+      "weight": 2
+    },
+    {
+      "source": "境界:恍惚",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "境界:恍惚",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:墨者",
+      "weight": 2
+    },
+    {
+      "source": "人物:墨者",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:武王",
+      "weight": 2
+    },
+    {
+      "source": "人物:武王",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:惠施",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠施",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:得道",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "境界:得道",
+      "target": "概念:生死",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:有名",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "境界:有名",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:五行",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄德",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:四方",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:大道",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄德",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:玄德",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:老子",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:生死",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:五行",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:周公",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:周公",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:五行",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:五行",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:孔子",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:孔子",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:天池",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "境界:天池",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "概念:不知",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "概念:不知",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:不知",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:文王",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:文王",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:不善",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:不善",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "生物:朝菌",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "概念:自然",
+      "target": "生物:蟪蛄",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:惠子",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:惠子",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "境界:不能",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:五事",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:五事",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "概念:四方",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "概念:大道",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:朝菌",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "概念:四方",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:四方",
+      "weight": 2
+    },
+    {
+      "source": "概念:四方",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "概念:四方",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:被衣",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:被衣",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "人物:老聃",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "概念:大道",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:有待",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "主体:鬼神",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "主体:天下",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:大道",
+      "weight": 2
+    },
+    {
+      "source": "概念:大道",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "概念:大道",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "人物:列子",
+      "weight": 2
+    },
+    {
+      "source": "人物:儒者",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "境界:不能",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "人物:列子",
+      "target": "概念:自然",
+      "weight": 2
+    },
+    {
+      "source": "概念:物化",
+      "target": "生物:彭祖",
+      "weight": 2
+    },
+    {
+      "source": "概念:生死",
+      "target": "概念:自然",
+      "weight": 2
+    }
+  ]
+}

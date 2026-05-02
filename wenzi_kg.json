@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "classic": "wenzi",
+    "total_chapters": 12,
+    "total_tags": 788,
+    "unique_entities": 12
+  },
+  "nodes": [
+    {
+      "id": "人物:老子",
+      "type": "人物",
+      "name": "老子",
+      "weight": 444
+    },
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 182
+    },
+    {
+      "id": "境界:真人",
+      "type": "境界",
+      "name": "真人",
+      "weight": 37
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 35
+    },
+    {
+      "id": "境界:至人",
+      "type": "境界",
+      "name": "至人",
+      "weight": 34
+    },
+    {
+      "id": "境界:有名",
+      "type": "境界",
+      "name": "有名",
+      "weight": 32
+    },
+    {
+      "id": "人物:孔子",
+      "type": "人物",
+      "name": "孔子",
+      "weight": 6
+    },
+    {
+      "id": "概念:物化",
+      "type": "概念",
+      "name": "物化",
+      "weight": 4
+    },
+    {
+      "id": "概念:玄德",
+      "type": "概念",
+      "name": "玄德",
+      "weight": 4
+    },
+    {
+      "id": "人物:老聃",
+      "type": "人物",
+      "name": "老聃",
+      "weight": 4
+    },
+    {
+      "id": "概念:有待",
+      "type": "概念",
+      "name": "有待",
+      "weight": 3
+    },
+    {
+      "id": "人物:百里奚",
+      "type": "人物",
+      "name": "百里奚",
+      "weight": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "主体:天地",
+      "target": "人物:老子",
+      "weight": 8
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:自然",
+      "weight": 7
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:至人",
+      "weight": 6
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:至人",
+      "weight": 6
+    },
+    {
+      "source": "境界:真人",
+      "target": "境界:至人",
+      "weight": 5
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:真人",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:真人",
+      "weight": 5
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:孔子",
+      "weight": 5
+    },
+    {
+      "source": "主体:天地",
+      "target": "境界:有名",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老子",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:有名",
+      "weight": 5
+    },
+    {
+      "source": "人物:老子",
+      "target": "境界:有名",
+      "weight": 5
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:自然",
+      "weight": 5
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:至人",
+      "weight": 4
+    },
+    {
+      "source": "境界:有名",
+      "target": "境界:至人",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "境界:真人",
+      "weight": 4
+    },
+    {
+      "source": "境界:有名",
+      "target": "境界:真人",
+      "weight": 4
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:玄德",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:玄德",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:玄德",
+      "weight": 4
+    },
+    {
+      "source": "概念:玄德",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:玄德",
+      "weight": 4
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:老子",
+      "target": "人物:老聃",
+      "weight": 4
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:自然",
+      "weight": 4
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:有名",
+      "weight": 4
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "境界:至人",
+      "target": "概念:玄德",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "境界:真人",
+      "target": "概念:玄德",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:物化",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:老子",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "境界:有名",
+      "target": "概念:有待",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:至人",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "境界:真人",
+      "weight": 3
+    },
+    {
+      "source": "主体:天地",
+      "target": "人物:百里奚",
+      "weight": 3
+    },
+    {
+      "source": "人物:孔子",
+      "target": "人物:百里奚",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:老子",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:自然",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "人物:老聃",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "概念:玄德",
+      "weight": 3
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "境界:有名",
+      "weight": 3
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:玄德",
+      "weight": 3
+    },
+    {
+      "source": "概念:物化",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "概念:有待",
+      "target": "概念:玄德",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "境界:至人",
+      "weight": 2
+    },
+    {
+      "source": "人物:百里奚",
+      "target": "境界:真人",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:物化",
+      "weight": 2
+    },
+    {
+      "source": "人物:老聃",
+      "target": "概念:有待",
+      "weight": 2
+    }
+  ]
+}

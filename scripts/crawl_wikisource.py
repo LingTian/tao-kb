@@ -43,6 +43,11 @@ SOURCES: List[Source] = [
         "Qing Jing Jing(清静经)",
         "qingjingjing_full.md",
     ),
+    # New additions: more Taoist classics
+    Source(["關尹子", "关尹子"], "Guan Yin Zi(关尹子)", "guanyinzi_full.md"),
+    Source(["鶡冠子", "鹖冠子"], "He Guan Zi(鹖冠子)", "heguanzi_full.md"),
+    Source(["老子想爾注", "老子想尔注"], "Lao Xiang Er(老子想尔注)", "laoxianger_full.md"),
+    Source(["管子"], "Guan Zi(管子)", "guanzi_full.md"),
 ]
 
 
@@ -159,9 +164,9 @@ def fetch_recursive_text(root_title: str, max_subpages: int = 0) -> str:
         if not sub_text:
             continue
         sections.append(f"## {sub}\n\n{sub_text}")
-        if idx % 20 == 0:
+        if idx % 5 == 0:
             print(f"  - fetched {idx}/{len(subpages)} subpages for {root_title}")
-        time.sleep(0.15)
+        time.sleep(0.1)
 
     return sanitize_text("\n\n".join(sections))
 

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "classic": "黄帝阴符经",
+    "total_chapters": 1,
+    "total_tags": 12,
+    "unique_entities": 7
+  },
+  "nodes": [
+    {
+      "id": "主体:天地",
+      "type": "主体",
+      "name": "天地",
+      "weight": 5
+    },
+    {
+      "id": "概念:自然",
+      "type": "概念",
+      "name": "自然",
+      "weight": 2
+    },
+    {
+      "id": "主体:圣人",
+      "type": "主体",
+      "name": "圣人",
+      "weight": 1
+    },
+    {
+      "id": "概念:三才",
+      "type": "概念",
+      "name": "三才",
+      "weight": 1
+    },
+    {
+      "id": "概念:不知",
+      "type": "概念",
+      "name": "不知",
+      "weight": 1
+    },
+    {
+      "id": "主体:天下",
+      "type": "主体",
+      "name": "天下",
+      "weight": 1
+    },
+    {
+      "id": "境界:不能",
+      "type": "境界",
+      "name": "不能",
+      "weight": 1
+    }
+  ],
+  "links": []
+}
